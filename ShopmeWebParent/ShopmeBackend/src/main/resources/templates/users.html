@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head th:replace="fragments :: head">
+Header
+</head>
+<body>
+<div class="container-fluid">
+    <div th:replace="fragments :: header">
+        Header
+    </div>
+
+    <div>
+        <h2>Manage Users</h2>
+        <a th:href="@{/users/new}">Create New User</a>
+    </div>
+
+    <div th:if="${message} != null" class="alert alert-success text-center">
+        [[${message}]]
+    </div>
+
+    <div>
+        <table class="table table-bordered table-striped table-hover table-responsive-xl">
+            <thead class="thead-dark">
+            <tr>
+                <th>User ID</th>
+                <th>Photos</th>
+                <th>E-mail</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Roles</th>
+                <th>Enabled</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.id}"></td>
+                <td><span class="fas fa-portrait fa-3x icon-silver"></span></td>
+                <td>[[${user.email}]]</td>
+                <td>[[${user.firstName}]]</td>
+                <td>[[${user.lastName}]]</td>
+                <td th:text="${user.roles}"></td>
+
+                <td>
+                    <a th:if="${user.enabled == true}" class="fas fa-check-circle fa-2x icon-green" href=""></a>
+                    <a th:if="${user.enabled == false}" class="fas fa-check-circle fa-2x icon-dark" href=""></a>
+                </td>
+
+                <td>
+                    <a class="fas fa-edit fa-2x icon-green" href=""></a>
+                    &nbsp;
+                    <a class="fas fa-trash fa-2x icon-dark" href=""></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div th:replace="fragments :: footer">
+        Footer
+    </div>
+</div>
+</body>
+</html>
