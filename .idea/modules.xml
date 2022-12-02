@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/ShopmeCommon/ShopmeCommon.iml" filepath="$PROJECT_DIR$/ShopmeCommon/ShopmeCommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/ShopmeFrontend.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/ShopmeFrontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/ShopmeWebParent.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/ShopmeWebParent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/shopme.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/shopme.iml" />
     </modules>
   </component>
 </project>

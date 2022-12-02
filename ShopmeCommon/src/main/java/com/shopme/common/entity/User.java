@@ -28,7 +28,7 @@ public class User {
 
     private boolean enabled;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "users_roles",
             joinColumns = @JoinColumn(name = "user_id"),
@@ -120,4 +120,19 @@ public class User {
         return "User [id=" + id + ", email=" + email + ", firstName=" + firstName + ", lastName=" + lastName
                 + ", roles=" + roles + "]";
     }
+
+    @Transient
+    public String getPhotosImagePath() {
+        if (id == null || photos == null) return "/images/default-user.png";
+
+        return "/user-photos/" + this.id + "/" + this.photos;
+    }
+
+    //Fullname is not saved in DB
+    //@Transient for this reason
+    @Transient
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
+
 }
