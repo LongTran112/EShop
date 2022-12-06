@@ -5,9 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.*;
 
 @Service
+@Transactional
 public class CategoryService {
     @Autowired
     CategoryRepository categoryRepository;
@@ -67,16 +69,16 @@ public class CategoryService {
         }
 
         map.put(hierarchicalCategories, stringCategories);
-        for (Category category:
-                hierarchicalCategories) {
-            System.out.println(category.getName());
-        }
-        System.out.println("----------------");
-        for (String string:
-                stringCategories) {
-            System.out.println(string);
-
-        }
+//        for (Category category:
+//                hierarchicalCategories) {
+//            System.out.println(category.getName());
+//        }
+//        System.out.println("----------------");
+//        for (String string:
+//                stringCategories) {
+//            System.out.println(string);
+//
+//        }
         return map;
     }
 
@@ -104,16 +106,6 @@ public class CategoryService {
         }
 
         map.put(hierarchicalCategories, stringCategories);
-        for (Category category:
-                hierarchicalCategories) {
-            System.out.println(category.getName());
-        }
-        System.out.println("----------------");
-        for (String string:
-                stringCategories) {
-            System.out.println(string);
-
-        }
         return map;
     }
 
@@ -211,6 +203,19 @@ public class CategoryService {
         sortedChildren.addAll(children);
 
         return sortedChildren;
+    }
+
+    public void updateCategoryEnabledStatus(Integer id, boolean enabled){
+        categoryRepository.updateEnabledStatus(id, enabled);
+    }
+
+    public void delete(Integer id) throws CategoryNotFoundException {
+        Long countById = categoryRepository.countById(id);
+        if (countById == null || countById == 0) {
+            throw new CategoryNotFoundException("Could not find any category with ID " + id);
+        }
+
+        categoryRepository.deleteById(id);
     }
 
 

@@ -121,6 +121,7 @@ public class User {
                 + ", roles=" + roles + "]";
     }
 
+    //Thang transient nay xai thang qua thymeleaf duoc luon!!!
     @Transient
     public String getPhotosImagePath() {
         if (id == null || photos == null) return "/images/default-user.png";
@@ -130,6 +131,7 @@ public class User {
 
     //Fullname is not saved in DB
     //@Transient for this reason
+    //Thang transient nay xai thang qua thymeleaf duoc luon!!!
     @Transient
     public String getFullName() {
         return firstName + " " + lastName;

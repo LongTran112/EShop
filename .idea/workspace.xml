@@ -20,31 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d83402-3281-4f62-8f6c-f7f0d6497979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/images/image-thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/modal_fragments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/category/CategoryServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/common_list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/FileUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/utils/FileUploadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/common_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/common_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/utils/FileUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/utils/FileUploadUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/category_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/user_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/category/CategoryRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/category/CategoryRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/modal_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/modal_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-images/16/books.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,11 +95,11 @@
       <recent name="com.shopme.admin.user.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\js" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\java\com\shopme\admin\security" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -249,7 +238,7 @@
       <workItem from="1669955998431" duration="22032000" />
       <workItem from="1670162551975" duration="6305000" />
       <workItem from="1670233847446" duration="9273000" />
-      <workItem from="1670296678510" duration="11374000" />
+      <workItem from="1670296678510" duration="16380000" />
     </task>
     <servers />
   </component>
@@ -300,69 +289,69 @@
     </state>
     <state x="1075" y="379" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670163870319" />
     <state x="806" y="379" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1669307020344" />
-    <state width="2517" height="228" key="GridCell.Tab.0.bottom" timestamp="1670315033499">
+    <state width="1680" height="227" key="GridCell.Tab.0.bottom" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.0.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033499" />
+    <state width="1680" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.0.center" timestamp="1670315033498">
+    <state width="1680" height="227" key="GridCell.Tab.0.center" timestamp="1670333017770">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.0.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033498" />
+    <state width="1680" height="227" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017770" />
     <state width="1171" height="163" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.0.left" timestamp="1670315033498">
+    <state width="1680" height="227" key="GridCell.Tab.0.left" timestamp="1670333017770">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.0.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033498" />
+    <state width="1680" height="227" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017770" />
     <state width="1171" height="163" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.0.right" timestamp="1670315033498">
+    <state width="1680" height="227" key="GridCell.Tab.0.right" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.0.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033498" />
+    <state width="1680" height="227" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.1.bottom" timestamp="1670315033499">
+    <state width="1680" height="227" key="GridCell.Tab.1.bottom" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.1.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033499" />
+    <state width="1680" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.1.center" timestamp="1670315033499">
+    <state width="1680" height="227" key="GridCell.Tab.1.center" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.1.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033499" />
+    <state width="1680" height="227" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.1.left" timestamp="1670315033499">
+    <state width="1680" height="227" key="GridCell.Tab.1.left" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.1.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033499" />
+    <state width="1680" height="227" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="228" key="GridCell.Tab.1.right" timestamp="1670315033499">
+    <state width="1680" height="227" key="GridCell.Tab.1.right" timestamp="1670333017771">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state width="1234" height="230" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
     <state width="1234" height="230" key="GridCell.Tab.1.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="2517" height="228" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670315033499" />
+    <state width="1680" height="227" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333017771" />
     <state width="1171" height="163" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
     <state width="2517" height="238" key="GridCell.Tab.2.bottom" timestamp="1669977276090">
       <screen x="1080" y="0" width="2560" height="1050" />
@@ -406,15 +395,19 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-409" y="391" width="1736" height="866" key="dock-window-2/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813709704" />
+    <state x="3175" y="373" width="605" height="677" key="find.popup" timestamp="1670333291626">
+      <screen x="1920" y="0" width="2560" height="1050" />
+    </state>
+    <state x="3175" y="373" width="605" height="677" key="find.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333291626" />
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup" timestamp="1669813465203">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813465203" />
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669479834722" />
-    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup" timestamp="1669869981052">
+    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup" timestamp="1670333273484">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669869981052" />
+    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333273484" />
     <state x="971" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669544618128" />
   </component>
   <component name="XDebuggerManager">

@@ -53,6 +53,7 @@ public class Category {
         this.alias = alias;
     }
 
+
     public Integer getId() {
         return id;
     }
@@ -114,5 +115,13 @@ public class Category {
         if (this.id == null) return "/images/image-thumbnail.png";
 
         return "/category-images/" + this.id + "/" + this.image;
+    }
+
+
+
+    //Thang transient nay xai thang qua thymeleaf duoc luon!!!
+    @Transient
+    public boolean hasChildren(){
+        return this.getChildren().size() > 0;
     }
 }
