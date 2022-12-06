@@ -1,4 +1,4 @@
-package com.shopme.admin;
+package com.shopme.admin.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
 
+	//Class nay quan trong cho viec hien thi images
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		String dirName = "user-photos";
@@ -19,6 +20,14 @@ public class MvcConfig implements WebMvcConfigurer {
 		
 		registry.addResourceHandler("/" + dirName + "/**")
 			.addResourceLocations("file:/" + userPhotosPath + "/");
+
+		String categoryImagesDirName = "category-images";
+		Path categoryImagesDir = Paths.get(categoryImagesDirName);
+
+		String categoryImagesPath = categoryImagesDir.toFile().getAbsolutePath();
+
+		registry.addResourceHandler("/" + categoryImagesDirName + "/**")
+				.addResourceLocations("file:/" + categoryImagesPath + "/");
 	}
 
 }

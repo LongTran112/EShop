@@ -1,4 +1,4 @@
-package com.shopme.admin;
+package com.shopme.admin.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,8 +16,9 @@ public class FileUploadUtil {
 	
 	public static void saveFile(String uploadDir, String fileName,
                                 MultipartFile multipartFile) throws IOException {
+		System.out.println("uploadDir:" + uploadDir);
 		Path uploadPath = Paths.get(uploadDir);
-		
+
 		if (!Files.exists(uploadPath)) {
 			Files.createDirectories(uploadPath);
 		}

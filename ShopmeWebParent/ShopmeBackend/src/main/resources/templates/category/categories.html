@@ -34,22 +34,24 @@
     <table class="table table-bordered table-striped table-hover table-responsive-xl">
         <thead class="thead-dark">
         <tr>
-            <th class="hideable-column">
-            <th th:replace="fragments :: column_link('id', 'ID', 'tag')" />
+            <th>ID</th>
+            <th>Category Image</th>
+            <th>
+                <a class="text-white" th:href="@{'/categories?sortDir=' + ${reverseSortDir}}">Category Name</a>
+                <span th:class="${reverseSortDir == 'desc' ? 'fas fa-sort-up' : 'fas fa-sort-down'}" ></span>
             </th>
-            <th class="hideable-column">
-            <th th:replace="fragments :: column_link('image', 'image', 'tag')" />
-            </th>
-            <th th:replace="fragments :: column_link('name', 'Category Name', 'none')" />
-            <th th:replace="fragments :: column_link('alias', 'Alias', 'none')" />
-            <th th:replace="fragments :: column_link('enabled', 'Enabled', 'none')" />
+            <th>Alias</th>
+            <th>Enabled</th>
             <th></th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="category : ${categories}">
             <td>[[${category.id}]]</td>
-            <td>[[${category.image}]]</td>
+            <td>
+                <img th:src="@{${category.imagePath}}" style="width: 100px" class="img-fluid"/>
+<!--                [[${category.imagePath}]]-->
+            </td>
             <td>[[${category.name}]]</td>
             <td>[[${category.alias}]]</td>
             <td>
@@ -59,7 +61,9 @@
                    class="fas fa-check-circle fa-2x icon-green" ></a>
             </td>
 
-            <td></td>
+            <td>
+                <div th:replace="fragments :: category_actions" />
+            </td>
 
         </tr>
         </tbody>

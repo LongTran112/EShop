@@ -46,6 +46,13 @@ public class Category {
         this.image = "default.png";
     }
 
+    public Category(Integer id, String name, String alias) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.alias = alias;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -100,5 +107,12 @@ public class Category {
 
     public void setChildren(Set<Category> children) {
         this.children = children;
+    }
+
+    @Transient
+    public String getImagePath() {
+        if (this.id == null) return "/images/image-thumbnail.png";
+
+        return "/category-images/" + this.id + "/" + this.image;
     }
 }

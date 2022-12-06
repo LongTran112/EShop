@@ -1,7 +1,7 @@
 package com.shopme.admin.user.controller;
 
-import com.shopme.admin.FileUploadUtil;
-import com.shopme.admin.UserNotFoundException;
+import com.shopme.admin.utils.FileUploadUtil;
+import com.shopme.admin.exception.UserNotFoundException;
 import com.shopme.admin.user.export.UserCsvExporter;
 import com.shopme.admin.user.export.UserExcelExporter;
 import com.shopme.admin.user.export.UserPdfExporter;

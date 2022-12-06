@@ -104,25 +104,27 @@ public class CategoryRepositoryTests {
             //Chi lay nhung category nao khong co parent ID
             if (category.getParent() == null){
                 hierarchicalCategories.add(category);
+                System.out.println(category.getName());
                 for (Category childCategory: category.getChildren()){
                     hierarchicalCategories.add(childCategory);
+                    System.out.println(childCategory.getName());
                     getChildren(childCategory, hierarchicalCategories);
                 }
             }
         }
-        for (Category category: hierarchicalCategories) {
-            System.out.println(category.getName());
-        }
+
     }
 
-    public Category getChildren(Category category, List<Category> hierarchicalCategories){
+    public void getChildren(Category category, List<Category> hierarchicalCategories){
         Set<Category> children = category.getChildren();
+
         for (Category childCategory :
                 children) {
             hierarchicalCategories.add(childCategory);
-            return getChildren(childCategory, hierarchicalCategories);
+            System.out.println(childCategory.getName());
+            getChildren(childCategory, hierarchicalCategories);
         }
-        return null;
+
     }
 
     @Test
@@ -150,16 +152,15 @@ public class CategoryRepositoryTests {
     }
 
 
-    public Category getChildren(Category category, List<String> hierarchicalCategories,
+    public void getChildren(Category category, List<String> hierarchicalCategories,
                                 int subLevel){
 
         Set<Category> children = category.getChildren();
         for (Category childCategory :
                 children) {
             addIndentCategoryToHierarchicalList(childCategory, hierarchicalCategories, subLevel+1);
-            return getChildren(childCategory, hierarchicalCategories, subLevel + 1);
+            getChildren(childCategory, hierarchicalCategories, subLevel + 1);
         }
-        return null;
     }
 
     public void addIndentCategoryToHierarchicalList(Category category, List<String> hierarchical,
@@ -208,8 +209,24 @@ public class CategoryRepositoryTests {
             System.out.println(string);
 
         }
+    }
 
+    @Test
+    public void testFindByName(){
+        String name = "Computer";
+        Category category = repository.findByName(name);
 
+        assertThat(category).isNotNull();
+        assertThat(category.getName()).isEqualTo(name);
+    }
+
+    @Test
+    public void testFindByAlias() {
+        String alias = "Electronics";
+        Category category = repository.findByAlias(alias);
+
+        assertThat(category).isNotNull();
+        assertThat(category.getAlias()).isEqualTo(alias);
     }
 
 

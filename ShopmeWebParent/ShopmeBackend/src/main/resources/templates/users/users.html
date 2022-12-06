@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments :: page_head('Users - Shopme Admin')" />
+<head th:replace="fragments :: page_head('Users - EStore Admin')" />
 <body>
 <div class="container-fluid">
 	<div th:replace="navigation :: menu"></div>
@@ -65,6 +65,7 @@
 					<td class="hideable-column">[[${user.id}]]</td>
 					<td>
 						<div th:replace="fragments :: user_photos" />
+						[[${user.getPhotosImagePath}]]
 					</td>
 					<td class="hideable-column">[[${user.email}]]</td>
 					<td>[[${user.firstName}]]</td>
