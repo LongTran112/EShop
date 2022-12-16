@@ -47,6 +47,17 @@ public class WebSecurityConfig {
         http.authorizeRequests()
                 .antMatchers("/users/**").hasAuthority("Admin")
                 .antMatchers("/categories/**", "/brands/**").hasAnyAuthority("Admin", "Editor")
+
+                .antMatchers("/products/new", "/products/delete/**").hasAnyAuthority("Admin", "Editor")
+
+                .antMatchers("/products/edit/**", "/products/save", "/products/check_unique")
+                .hasAnyAuthority("Admin", "Editor", "Salesperson")
+
+                .antMatchers("/products", "/products/", "/products/detail/**", "/products/page/**")
+                .hasAnyAuthority("Admin", "Editor", "Salesperson", "Shipper")
+
+                .antMatchers("/products/**").hasAnyAuthority("Admin", "Editor")
+
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -67,7 +78,11 @@ public class WebSecurityConfig {
 
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
-        return (web) -> web.ignoring().antMatchers("/images/**", "/js/**", "/webjars/**","/error");
+        return (web) -> web.ignoring().antMatchers("/images/**",
+                "/js/**",
+                "/webjars/**",
+                "/styles/**",
+                "/error");
     }
 
     @Bean

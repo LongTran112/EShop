@@ -20,54 +20,531 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d83402-3281-4f62-8f6c-f7f0d6497979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryCsvExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryPageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brand_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brands.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/brand/BrandRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/brand/BrandServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/ProductDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandNotFoundRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/product/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/product/ProductRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/product_form_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/product_form_images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/product_form_overview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext/jquery.richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext/jquery.richtext.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext/richtext.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext/richtext.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_description_read_only.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_detail_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_details_read_only.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_images_read_only.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/product_shipping_read_only.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/products/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/product/ProductRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/canon eos m50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/download (4).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/extras/EOS M50 LCD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/extras/EOS M50 flash opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/extras/EOS M50 incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/extras/EOS M50 straight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/1/extras/EOS M50 top down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/81Y5WuARqpS._AC_SX522_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/Olympus Tough main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/extras/71IBJaDNl0S._AC_SL1500_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/extras/Olympus Tough potrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/extras/Olympus Tough water around.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/10/extras/Olympus Tough water slow motion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/100/Crucial 8GB DDR main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/100/extras/Crucial 8GB DDR 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/100/extras/Crucial 8GB DDR installation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/100/extras/Crucial 8GB DDR on laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/101/HyperX 16GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/101/extras/HyperX 16GB DDR4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/101/extras/HyperX 16GB couple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/101/extras/HyperX 16GB package.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/102/Asus AM4 TUF main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/102/extras/Asus AM4 TUF 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/102/extras/Asus AM4 TUF box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/102/extras/Asus AM4 TUF circuit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/102/extras/Asus AM4 TUF ports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/103/Asus Prime main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/103/extras/Asus Prime connectivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/103/extras/Asus Prime details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/103/extras/Asus Prime outclass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/103/extras/Asus Prime outshine competition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/104/Gigabyte B450M main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/104/extras/Gigabyte B450M circuit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/104/extras/Gigabyte B450M details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/104/extras/Gigabyte B450M ports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/105/TPLink AX3000 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/105/extras/TPLink AX3000 Wifi 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/105/extras/TPLink AX3000 reduce lag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/105/extras/TPLink AX3000 speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/106/TPLink AC1200 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/106/extras/TPLink AC1200 antennas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/106/extras/TPLink AC1200 bluetooth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/106/extras/TPLink AC1200 details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/107/batch-files-automate-670x335.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/11/Sony a7 III main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/12/CADeN Camera Backpack open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/12/extras/CADeN Camera Backpack Waterproof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/12/extras/CADeN Camera Backpack details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/12/extras/CADeN Camera Backpack sizes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/12/extras/CADeN Camera Backpack usages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/AmazonBasics Large DSLR Camera Bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/extras/AmazonBasics Large DSLR Camera Bag close view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/extras/AmazonBasics Large DSLR Camera Bag cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/extras/AmazonBasics Large DSLR Camera Bag opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/extras/AmazonBasics Large DSLR Camera Bag top view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/14/extras/AmazonBasics Large DSLR Camera Bag tripod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/15/Nikon Flash 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/15/extras/Nikon Flash details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/16/Canon Speedlite main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/16/extras/Canon Speedlite 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/16/extras/Canon Speedlite 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/16/extras/Canon Speedlite 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/17/Sony Flash 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/17/extras/Sony Flash 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/17/extras/Sony Flash 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/17/extras/Sony Flash 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/18/Neewer TT560 Flash Speedlite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/18/extras/Neewer TT560 Flash Speedlite 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/18/extras/Neewer TT560 Flash Speedlite 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/18/extras/Neewer TT560 Flash Speedlite 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/19/Canon EF 50mm main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/19/extras/Canon EF 50mm side 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/19/extras/Canon EF 50mm side 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/19/extras/Canon EF 50mm side 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/19/extras/Canon EF 50mm side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/37968_inspiron_3593_ha1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/Sony ZV-1 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/extras/71qRDcWTSUL._AC_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/extras/Sony ZV-1 bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/extras/Sony ZV-1 front 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/extras/Sony ZV-1 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/2/extras/Sony ZV-1 side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/20/Nikon AF-S Nikkor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/21/Canon EF 75-300mm 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/21/extras/Canon EF 75-300mm 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/Sigma 150-600mm main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/extras/Sigma 150-600mm 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/extras/Sigma 150-600mm 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/extras/Sigma 150-600mm 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/extras/Sigma 150-600mm buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/22/extras/Sigma 150-600mm front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/23/Bosch BT150 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/23/extras/Bosch BT150 install 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/23/extras/Bosch BT150 install 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/23/extras/Bosch BT150 install.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/23/extras/Bosch BT150 usage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/Joby JB01507 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/extras/Joby JB01507 collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/extras/Joby JB01507 usage 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/extras/Joby JB01507 usage 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/extras/Joby JB01507 usage 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/24/extras/Joby JB01507 usage 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/GoPro Tripod main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/extras/GoPro Tripod with camera 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/extras/GoPro Tripod with camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/extras/GoPro monopod mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/extras/GoPro monopod selfie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/25/extras/GoPro tripod picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/26/Manfrotto Monopod main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/27/Samsung Galaxy S7 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/27/extras/Samsung Galaxy S7 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/27/extras/Samsung Galaxy S7 incline 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/27/extras/Samsung Galaxy S7 incline 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/Samsung Galaxy S6 Edge front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge back 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge back 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge incline 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge incline 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge incline 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/28/extras/Samsung Galaxy S6 Edge incline 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/29/Google Pixel 3a - front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/29/extras/Google Pixel 3a - back and front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/29/extras/Google Pixel 3a - back side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/3/Lumix FZ80 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/3/extras/Lumix FZ80 buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/3/extras/Lumix FZ80 dimensions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/3/extras/Lumix FZ80 lens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/3/extras/Lumix FZ80 rear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/30/LG G Flex front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/30/extras/LG G Flex front and back curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/30/extras/LG G Flex incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/30/extras/LG G Flex lying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/30/extras/LG G Flex sim tray open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/31/LG Optimus Exceed 2 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/31/extras/LG Optimus Exceed 2 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/31/extras/LG Optimus Exceed 2 incline 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/31/extras/LG Optimus Exceed 2 incline 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/32/LG G6 T-Mobile main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/32/extras/LG G6 T-Mobile back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/32/extras/LG G6 T-Mobile lying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/32/extras/LG G6 T-Mobile side 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/33/TracFone Motorola Moto G6 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/33/extras/TracFone Motorola Moto G6 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/33/extras/TracFone Motorola Moto G6 side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/34/Pantech Pocket main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/34/extras/Pantech Pocket 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/34/extras/Pantech Pocket 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/34/extras/Pantech Pocket 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/35/Samsung Galaxy S10 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/35/extras/Samsung Galaxy S10 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/35/extras/Samsung Galaxy S10 front and back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/35/extras/Samsung Galaxy S10 side 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/35/extras/Samsung Galaxy S10 side 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/36/Samsung Galaxy A20s main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/36/extras/Samsung Galaxy A20s back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/36/extras/Samsung Galaxy A20s cameras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/36/extras/Samsung Galaxy A20s side1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/36/extras/Samsung Galaxy A20s side2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/Samsung Galaxy S20 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/extras/Samsung Galaxy S20 front and back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/extras/Samsung Galaxy S20 incline1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/extras/Samsung Galaxy S20 incline2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/extras/Samsung Galaxy S20 side1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/37/extras/Samsung Galaxy S20 side2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/38/iPhone XS 256GB 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/39/extras/iPhone 7 Plus 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/39/extras/iPhone 7 Plus back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/39/extras/iPhone 7 Plus front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/39/iPhone 7 Plus main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/4/Pelican 1200 Case main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/4/extras/Pelican 1200 Case features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/4/extras/Pelican 1200 Case open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/4/extras/Pelican 1200 Case usages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/40/extras/iPhone X 64GB rear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/40/iPhone X 64GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/41/Google Pixel 4 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/41/extras/Google Pixel 4 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/41/extras/Google Pixel 4 incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/41/extras/Google Pixel 4 side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/42/Motor G Power main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/42/extras/Motor G Power cameras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/42/extras/Motor G Power twos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/42/extras/Motor G Power unlocked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/43/Huawai P30 Lite main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/43/extras/Huawai P30 Lite cameras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/43/extras/Huawai P30 Lite rear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/43/extras/Huawai P30 Lite specs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/43/extras/Huawai P30 Lite twos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/44/Redmi Note 9S main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/44/extras/Redmi Note 9S cameras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/45/HOVAMP iPhone Charger 5pack main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/45/extras/HOVAMP iPhone Charger Aluminum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/45/extras/HOVAMP iPhone Charger compatible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/45/extras/HOVAMP iPhone Charger internal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/46/Aioneus iphone charger cord main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/46/extras/Aioneus iphone charger cord demo charging.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/46/extras/Aioneus iphone charger cord easy to carry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/46/extras/Aioneus iphone charger cord internal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/46/extras/Aioneus iphone charger cord supported devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/XIAE USB C Cable main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/extras/XIAE USB C Cable connectors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/extras/XIAE USB C Cable features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/extras/XIAE USB C Cable internals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/extras/XIAE USB C Cable suitability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/47/extras/XIAE USB C Cable supported devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/48/Everyworth Micro USB Cable 3pack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/48/extras/Everyworth Micro USB Cable Attention.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/48/extras/Everyworth Micro USB Cable Durability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/48/extras/Everyworth Micro USB Cable perfect design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/48/extras/Everyworth Micro USB Cable supported devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/Samsung EVO Select 256GB microSD main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/49/extras/Samsung EVO Select 256GB microSD 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/5/Pelican 1040 Micro Case 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/5/extras/Pelican 1040 Micro Case 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/50/SanDisk 128GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/50/extras/SanDisk 128GB 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/50/extras/SanDisk 128GB 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/50/extras/SanDisk 128GB 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/51/SanDisk Ultra 32GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/51/extras/SanDisk Ultra 32GB 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/51/extras/SanDisk Ultra 32GB 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/51/extras/SanDisk Ultra 32GB 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/51/extras/SanDisk Ultra 32GB 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/52/Samsung PRO 128GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/52/extras/Samsung PRO 128GB 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/52/extras/Samsung PRO 128GB 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/52/extras/Samsung PRO 128GB 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/53/Lexar 512GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/53/extras/Lexar 512GB 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/53/extras/Lexar 512GB2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/54/Manfrotto Tripod main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/54/extras/Manfrotto Tripod 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/54/extras/Manfrotto Tripod 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/54/extras/Manfrotto Tripod collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/54/extras/Manfrotto Tripod hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/55/Nulaxy A4 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/55/extras/Nulaxy A4 2 case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/55/extras/Nulaxy A4 2 portable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/55/extras/Nulaxy A4 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/55/extras/Nulaxy A4 holds ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/56/Fitfort Phone Ring Holder main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/56/extras/Fitfort Phone Ring Holder car mount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/56/extras/Fitfort Phone Ring Holder rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/56/extras/Fitfort Phone Ring Holder structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/56/extras/Fitfort Phone Ring Holder usages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/57/PopWallet main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/57/extras/PopWallet 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/57/extras/PopWallet 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/57/extras/PopWallet holds phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/58/Shawe Phone holder main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/58/extras/Shawe Phone holder 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/58/extras/Shawe Phone holder 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/58/extras/Shawe Phone holder 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/Lenovo IdeaCenter main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter back 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter back 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter back 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/59/extras/Lenovo IdeaCenter incline2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/6/Verizon Apple iPhone 6S main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/6/extras/Verizon Apple iPhone 6S all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/6/extras/Verizon Apple iPhone 6S back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/6/extras/Verizon Apple iPhone 6S front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/Aspire TC-885-UA92 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/extras/Aspire TC-885-UA92 CPU and RAM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/extras/Aspire TC-885-UA92 audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/extras/Aspire TC-885-UA92 compact form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/extras/Aspire TC-885-UA92 connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/60/extras/Aspire TC-885-UA92 connectivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/61/Dell Inspiron 27 AIO main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/61/extras/Dell Inspiron 27 AIO 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/61/extras/Dell Inspiron 27 AIO back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/61/extras/Dell Inspiron 27 AIO side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/IdeaCentre 3 main 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 with screen mouse keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/62/extras/IdeaCentre 3 with screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/Dell OptiPlex main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/extras/Dell OptiPlex details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/extras/Dell OptiPlex interfaces 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/extras/Dell OptiPlex interfaces.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/extras/Dell OptiPlex on desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/63/extras/Dell OptiPlex with screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/64/Intel NUC main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/64/extras/Intel NUC interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/64/extras/intel NUC usage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/64/extras/intel core i7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/Lenovo Flex 5 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/extras/Lenovo Flex 5 fold 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/extras/Lenovo Flex 5 fold 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/extras/Lenovo Flex 5 fold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/extras/Lenovo Flex 5 laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/65/extras/Lenovo Flex 5 top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/66/Acer Aspire 5 Slim Laptop main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/66/extras/Acer Aspire 5 Slim Laptop family.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/66/extras/Acer Aspire 5 Slim Laptop full hd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/66/extras/Acer Aspire 5 Slim Laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/ASUS VivoBook main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook cinematic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook ergonomic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook flexibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook hinge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/67/extras/ASUS VivoBook mobility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/68/HP Chromebook main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/68/extras/HP Chromebook components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/68/extras/HP Chromebook dimensions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/68/extras/HP Chromebook usb audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/Acer Swift 3 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/extras/Acer Swift 3 features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/extras/Acer Swift 3 full HD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/extras/Acer Swift 3 performance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/extras/Acer Swift 3 stay on the move.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/69/extras/Acer Swift 3 ultra light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/7/Samsung Galaxy Note 2 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/7/download (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/7/extras/Samsung Galaxy Note 2 incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/7/extras/Samsung Galaxy Note 2 with stylus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/70/ASUS TUF Gaming main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/70/extras/ASUS TUF Gaming 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/70/extras/ASUS TUF Gaming back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/70/extras/ASUS TUF Gaming side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/70/extras/ASUS TUF Gaming top view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/Lenovo Legion main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/extras/Lenovo Legion Audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/extras/Lenovo Legion Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/extras/Lenovo Legion fast refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/extras/Lenovo Legion keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/71/extras/Lenovo Legion minimal mighty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/Acer Chromebook Spin main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/extras/Acer Chromebook Spin 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/extras/Acer Chromebook Spin 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/extras/Acer Chromebook Spin 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/extras/Acer Chromebook Spin 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/72/extras/Acer Chromebook Spin 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/73/Dell Inspiron 3000 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/73/extras/Dell Inspiron 3000 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/73/extras/Dell Inspiron 3000 incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/73/extras/Dell Inspiron 3000 sideview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/73/extras/Dell Inspiron 3000 top view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/74/Galaxy Tab A main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/74/extras/Galaxy Tab A back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/74/extras/Galaxy Tab A front and back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/74/extras/Galaxy Tab A potrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/74/extras/Galaxy Tab A side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/75/Galaxy Tab S6 Lite main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/75/extras/Galaxy Tab S6 Lite back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/75/extras/Galaxy Tab S6 Lite incline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/75/extras/Galaxy Tab S6 Lite landscape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/75/extras/Galaxy Tab S6 Lite pen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/Surface Pro 7 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/extras/Surface Pro 7 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/extras/Surface Pro 7 key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/extras/Surface Pro 7 side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/extras/Surface Pro 7 stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/76/extras/Surface Pro 7 straight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/Lenovo Tab M10 Plus main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/extras/Lenovo Tab M10 Plus back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/extras/Lenovo Tab M10 Plus camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/extras/Lenovo Tab M10 Plus front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/extras/Lenovo Tab M10 Plus music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/77/extras/Lenovo Tab M10 Plus side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/Lenovo Tab M8 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/extras/Lenovo Tab M8 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/extras/Lenovo Tab M8 camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/extras/Lenovo Tab M8 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/extras/Lenovo Tab M8 gaming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/78/extras/Lenovo Tab M8 side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/79/extras/iPad 6 all sides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/79/iPad 6 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/Samsung 500GB SSD main 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/download (2).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/Samsung 500GB SSD 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/Samsung 500GB SSD bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/Samsung 500GB SSD main 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/Samsung 500GB SSD speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/Samsung 500GB SSD waranty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/download (3).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/8/extras/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/80/Dragon Touch Notepad K10 Tablet main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/80/extras/Dragon Touch Notepad K10 Tablet camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/80/extras/Dragon Touch Notepad K10 Tablet features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/80/extras/Dragon Touch Notepad K10 Tablet performance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/81/AMD Ryzen 5 Box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/81/extras/AMD Ryzen 5 Box 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/81/extras/AMD Ryzen 5 Box 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/81/extras/AMD Ryzen 5 chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/82/Intel Core i5 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/82/extras/Intel Core i5 desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/82/extras/Intel Core i5 graphics required.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/82/extras/Intel Core i5 specs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/83/Intel Core i9 main box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/83/extras/Intel Core i9 box chip close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/83/extras/Intel Core i9 box with chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/83/extras/Intel Core i9 chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/84/XFX Radeon RX 580 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/84/extras/XFX Radeon RX 580 bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/84/extras/XFX Radeon RX 580 ports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/84/extras/XFX Radeon RX 580 stand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/85/MSI GeForce main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/85/extras/MSI GeForce bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/85/extras/MSI GeForce card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/86/Western Digital 1TB 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/86/extras/Western Digital 1TB 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/86/extras/Western Digital 1TB 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/86/extras/Western Digital 1TB 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/86/extras/Western Digital 1TB 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/87/Western Digital 4TB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/87/extras/Western Digital 4TB external.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/87/extras/Western Digital 4TB internal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/88/Seagate BarraCuda 2TB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/88/extras/Seagate BarraCuda 2TB 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/88/extras/Seagate BarraCuda 2TB go big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/89/Asus 24x DVD-RW main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/89/extras/Asus 24x DVD-RW back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/Powershot ELPH 180 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 landscape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 lense closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/9/extras/Powershot ELPH 180 top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/90/LG WH16NS40 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/90/extras/LG WH16NS40 disc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/90/extras/LG WH16NS40 front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/91/LG Bluray main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/92/Asus Rog Thor 1200 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/92/extras/Asus Rog Thor 1200 connectivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/92/extras/Asus Rog Thor 1200 cooling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/92/extras/Asus Rog Thor 1200 customization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/93/Corsair SF600 main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/93/extras/Corsair SF600 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/93/extras/Corsair SF600 back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/93/extras/Corsair SF600 cables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/93/extras/Corsair SF600 fan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/94/Thermaltake 500W main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/94/extras/Thermaltake 500W 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/94/extras/Thermaltake 500W connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/94/extras/Thermaltake 500W fan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/95/Western Digital 500GB SSD main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/95/extras/Western Digital 500GB SSD 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/95/extras/Western Digital 500GB SSD 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/95/extras/Western Digital 500GB SSD 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/96/Kingston 240GB SSD main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/96/extras/Kingston 240GB SSD 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/96/extras/Kingston 240GB SSD bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/96/extras/Kingston 240GB SSD package.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/97/Xonar main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/97/extras/Xonar bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/97/extras/Xonar ciruct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/97/extras/Xonar ports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/98/Sound Blaster main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/98/extras/Sound Blaster 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/98/extras/Sound Blaster ports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/99/Corsair 16GB main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/99/extras/Corsair 8 GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/99/extras/Corsair DDR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/99/extras/Corsair slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-images/99/extras/Corsair specs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/classes/com/shopme/common/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/brand/BrandRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/category/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/AbstractExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/AbstractExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserCsvExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserCsvExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserExcelExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserExcelExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserPdfExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/user/export/UserPdfExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/category/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/category_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/utils/FileUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/java/com/shopme/admin/utils/FileUploadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/common_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/js/common_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brand_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brand_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brands.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/brands/brands.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/categories/category_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/error/500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/modal_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/modal_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/account_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/account_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/user_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/users/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/1/computer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/17/lenses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/18/internal hard drive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/19/Hard disk drive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/2/electronics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/20/ram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/23/ram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/24/clothes.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/26/books.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/27/men_clothes.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/3/desktop computers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/4/laptop computers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/5/computer components.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/7/digital cameras.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/8/carrier cellphones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-images/9/computer memory.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +556,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -87,12 +565,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2I03ZvJpVhSfrhXkWWhjxAtasll" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -103,7 +585,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/test/java/com/shopme/admin/brand" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,24 +596,28 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shopme.admin.category" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\products" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\test\java\com\shopme\admin\brand" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\brands" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\java\com\shopme\admin\brand" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\js" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shopme.admin.brand" />
       <recent name="com.shopme.admin.category" />
       <recent name="com.shopme.admin.user.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\js" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\styles" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\static\images" />
     </key>
@@ -143,81 +629,81 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopmeBackendApplication">
-    <configuration name="CategoryRepositoryTests.testFindByAlias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BrandRepositoryTests.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.category.*" />
+          <option name="PATTERN" value="com.shopme.admin.brand.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.category" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.category.CategoryRepositoryTests" />
-      <option name="METHOD_NAME" value="testFindByAlias" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.brand" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.brand.BrandRepositoryTests" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryRepositoryTests.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTests.testDeleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.category.*" />
+          <option name="PATTERN" value="com.shopme.admin.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.category" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.category.CategoryRepositoryTests" />
-      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
+      <option name="METHOD_NAME" value="testDeleteProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryServiceTests.testCheckUniqueInNewModeReturnDuplicateAlias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTests.testSaveProductWithDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.category.*" />
+          <option name="PATTERN" value="com.shopme.admin.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.category" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.category.CategoryServiceTests" />
-      <option name="METHOD_NAME" value="testCheckUniqueInNewModeReturnDuplicateAlias" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
+      <option name="METHOD_NAME" value="testSaveProductWithDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryServiceTests.testCheckUniqueInNewModeReturnDuplicateName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTests.testSaveProductWithImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.category.*" />
+          <option name="PATTERN" value="com.shopme.admin.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.category" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.category.CategoryServiceTests" />
-      <option name="METHOD_NAME" value="testCheckUniqueInNewModeReturnDuplicateName" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
+      <option name="METHOD_NAME" value="testSaveProductWithImages" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryServiceTests.testCheckUniqueInNewModeReturnOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTests.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.category.*" />
+          <option name="PATTERN" value="com.shopme.admin.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.category" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.category.CategoryServiceTests" />
-      <option name="METHOD_NAME" value="testCheckUniqueInNewModeReturnOK" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
+      <option name="METHOD_NAME" value="testUpdateProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,13 +732,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CategoryServiceTests.testCheckUniqueInNewModeReturnOK" />
-        <item itemvalue="JUnit.CategoryServiceTests.testCheckUniqueInNewModeReturnDuplicateAlias" />
-        <item itemvalue="JUnit.CategoryServiceTests.testCheckUniqueInNewModeReturnDuplicateName" />
-        <item itemvalue="JUnit.CategoryRepositoryTests.testFindByAlias" />
-        <item itemvalue="JUnit.CategoryRepositoryTests.testFindByName" />
+        <item itemvalue="JUnit.ProductRepositoryTests.testSaveProductWithDetails" />
+        <item itemvalue="JUnit.ProductRepositoryTests.testSaveProductWithImages" />
+        <item itemvalue="JUnit.BrandRepositoryTests.testFindAll" />
+        <item itemvalue="JUnit.ProductRepositoryTests.testDeleteProduct" />
+        <item itemvalue="JUnit.ProductRepositoryTests.testUpdateProduct" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,7 +763,15 @@
       <workItem from="1670162551975" duration="6305000" />
       <workItem from="1670233847446" duration="9273000" />
       <workItem from="1670296678510" duration="19327000" />
-      <workItem from="1670383935533" duration="10082000" />
+      <workItem from="1670383935533" duration="13030000" />
+      <workItem from="1670560316273" duration="12724000" />
+      <workItem from="1670643636994" duration="5425000" />
+      <workItem from="1670658784104" duration="3622000" />
+      <workItem from="1670744680031" duration="1849000" />
+      <workItem from="1670821039407" duration="10134000" />
+      <workItem from="1670906415663" duration="9564000" />
+      <workItem from="1671077536385" duration="12062000" />
+      <workItem from="1671159897273" duration="11132000" />
     </task>
     <servers />
   </component>
@@ -292,18 +790,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2602" y="391" width="592" height="274" key="#Notifications" timestamp="1669871722109">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2602" y="391" width="592" height="274" key="#Notifications/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669871722109" />
+    <state x="1400" y="103" key="#Project_Structure" timestamp="1670582032834">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1400" y="103" key="#Project_Structure/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670582032834" />
     <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669783156209">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669783156209" />
-    <state x="3580" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1670299114747">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state x="1095" y="206" key="#com.intellij.ide.util.MemberChooser" timestamp="1671165883573">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
+    <state x="1095" y="206" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671165883573" />
     <state x="2740" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669976320863" />
     <state x="3580" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670299114747" />
     <state x="1245" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1669611871508" />
@@ -315,79 +821,88 @@
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2438" y="362" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670312570679" />
-    <state x="2387" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670408276065">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state x="467" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670943613142">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="2387" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670408276065" />
+    <state x="467" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670943613142" />
+    <state x="2387" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670411855425" />
     <state x="2995" y="379" key="FileChooserDialogImpl" timestamp="1670390218711">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="1075" y="379" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670163870319" />
     <state x="2995" y="379" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670390218711" />
     <state x="806" y="379" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1669307020344" />
-    <state width="1234" height="224" key="GridCell.Tab.0.bottom" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.0.bottom" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.0.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.0.center" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.0.center" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.0.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.0.left" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.0.left" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.0.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.0.right" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.0.right" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.0.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.1.bottom" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.1.bottom" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.1.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.1.center" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.1.center" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.1.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.1.left" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.1.left" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.1.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="224" key="GridCell.Tab.1.right" timestamp="1670409279183">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state width="1234" height="383" key="GridCell.Tab.1.right" timestamp="1671190851120">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="230" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670249463199" />
+    <state width="831" height="383" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
+    <state width="1234" height="383" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671190851120" />
     <state width="1234" height="230" key="GridCell.Tab.1.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
     <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409279183" />
+    <state width="1234" height="224" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
     <state width="2517" height="238" key="GridCell.Tab.2.bottom" timestamp="1669977276090">
       <screen x="1080" y="0" width="2560" height="1050" />
@@ -409,9 +924,11 @@
     </state>
     <state width="2517" height="238" key="GridCell.Tab.2.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977276090" />
     <state width="1122" height="351" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669482498177" />
-    <state x="444" y="204" key="SettingsEditor" timestamp="1669813704864">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1476" y="199" key="SettingsEditor" timestamp="1671162664748">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1476" y="199" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671162664748" />
+    <state x="592" y="204" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670660277848" />
     <state x="444" y="204" key="SettingsEditor/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813704864" />
     <state x="3073" y="146" key="SettingsEditor/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669651566303" />
     <state x="506" y="199" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1669393276985" />
@@ -440,9 +957,11 @@
     </state>
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813465203" />
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669479834722" />
-    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup" timestamp="1670333273484">
-      <screen x="1920" y="0" width="2560" height="1050" />
+    <state x="-949" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1671092969681">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-949" y="233" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671092969681" />
+    <state x="1295" y="233" width="896" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670944928205" />
     <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333273484" />
     <state x="971" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669544618128" />
   </component>
