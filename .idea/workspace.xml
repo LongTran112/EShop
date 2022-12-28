@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d83402-3281-4f62-8f6c-f7f0d6497979" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/images/backgroundLoginPage.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/richtext" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,27 +78,27 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.shopme.admin.category" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\products" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\test\java\com\shopme\admin\brand" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\brands" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\java\com\shopme\admin\brand" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shopme.admin.brand" />
-      <recent name="com.shopme.admin.category" />
-      <recent name="com.shopme.admin.user.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\js" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\styles" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\static\images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shopme.admin.category" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shopme.admin.brand" />
+      <recent name="com.shopme.admin.category" />
+      <recent name="com.shopme.admin.user.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LongTran\Documents\EStore-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\products" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\test\java\com\shopme\admin\brand" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\brands" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -250,6 +253,17 @@
       <workItem from="1671159897273" duration="13486000" />
       <workItem from="1671194148880" duration="755000" />
       <workItem from="1671195022174" duration="330000" />
+      <workItem from="1671362930314" duration="617000" />
+      <workItem from="1671384660855" duration="1954000" />
+      <workItem from="1671422348433" duration="1715000" />
+      <workItem from="1671511367305" duration="598000" />
+      <workItem from="1671519304569" duration="613000" />
+      <workItem from="1671521964694" duration="2074000" />
+      <workItem from="1671613441014" duration="1260000" />
+      <workItem from="1671639708884" duration="596000" />
+      <workItem from="1671781318342" duration="493000" />
+      <workItem from="1671951963060" duration="92000" />
+      <workItem from="1671996096201" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="changed login.html colour">
       <created>1671194397204</created>
@@ -320,75 +334,83 @@
     <state x="1075" y="379" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671192003212" />
     <state x="2995" y="379" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670390218711" />
     <state x="806" y="379" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1669307020344" />
-    <state width="1234" height="379" key="GridCell.Tab.0.bottom" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.0.bottom" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.0.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.0.center" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.0.center" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.0.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.0.left" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.0.left" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.0.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.0.right" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.0.right" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.0.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.1.bottom" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.1.bottom" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.1.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.1.center" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.1.center" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.1.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.1.left" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.1.left" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.1.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1234" height="379" key="GridCell.Tab.1.right" timestamp="1671195430891">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state width="1018" height="221" key="GridCell.Tab.1.right" timestamp="1671997834361">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="831" height="383" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
     <state width="1234" height="379" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
     <state width="1234" height="230" key="GridCell.Tab.1.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
+    <state width="1018" height="221" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
     <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
     <state width="1234" height="224" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
     <state width="1171" height="163" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
@@ -446,11 +468,12 @@
     </state>
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813465203" />
     <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669479834722" />
-    <state x="-949" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1671092969681">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="777" y="181" width="538" height="527" key="search.everywhere.popup" timestamp="1671423160105">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="-949" y="233" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671092969681" />
     <state x="1295" y="233" width="896" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670944928205" />
+    <state x="777" y="181" width="538" height="527" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1671423160105" />
     <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333273484" />
     <state x="971" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669544618128" />
   </component>

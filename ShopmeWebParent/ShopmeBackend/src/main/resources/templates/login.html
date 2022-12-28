@@ -8,12 +8,14 @@
 	
 	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
 </head>
-<body>
+<body style="background-image: url('images/backgroundLoginPage.jpg')">
 <div class="container-fluid text-center">
 
 	<div>
 		<img th:src="@{/images/EStoreMedium.png}" class="img-fluid" />
 	</div>
+
+	<br>
 	
 	<form th:action="@{/login}" method="post" style="max-width: 350px; margin: 0 auto">
 		<div th:if="${param.error}">
