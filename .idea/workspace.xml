@@ -20,31 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/category/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/category/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/static/images/EStoreLogoSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/test/java/com/shopme/category/CategoryRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/products_by_category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-photos/1/namhm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/category/CategoryRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/category/CategoryRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,9 +72,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -151,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672227452796</updated>
       <workItem from="1672227454914" duration="627000" />
-      <workItem from="1672295363460" duration="10063000" />
+      <workItem from="1672295363460" duration="12608000" />
     </task>
     <servers />
   </component>
@@ -171,6 +156,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1400" y="103" key="#Project_Structure" timestamp="1672323685913">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1400" y="103" key="#Project_Structure/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672323685913" />
     <state x="1374" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672321374553">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -179,38 +168,38 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321361230" />
-    <state width="1234" height="292" key="GridCell.Tab.0.bottom" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.0.bottom" timestamp="1672328207922">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.0.center" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
+    <state width="1234" height="292" key="GridCell.Tab.0.center" timestamp="1672328207922">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.0.left" timestamp="1672321846665">
+    <state width="1234" height="292" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
+    <state width="1234" height="292" key="GridCell.Tab.0.left" timestamp="1672328207922">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846665" />
-    <state width="1234" height="292" key="GridCell.Tab.0.right" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
+    <state width="1234" height="292" key="GridCell.Tab.0.right" timestamp="1672328207922">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.1.bottom" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
+    <state width="1234" height="292" key="GridCell.Tab.1.bottom" timestamp="1672328207923">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.1.center" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
+    <state width="1234" height="292" key="GridCell.Tab.1.center" timestamp="1672328207923">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.1.left" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
+    <state width="1234" height="292" key="GridCell.Tab.1.left" timestamp="1672328207922">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
-    <state width="1234" height="292" key="GridCell.Tab.1.right" timestamp="1672321846666">
+    <state width="1234" height="292" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
+    <state width="1234" height="292" key="GridCell.Tab.1.right" timestamp="1672328207923">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
     <state x="1400" y="99" key="SettingsEditor" timestamp="1672227484437">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
