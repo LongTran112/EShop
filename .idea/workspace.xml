@@ -19,11 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9d83402-3281-4f62-8f6c-f7f0d6497979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/images/backgroundLoginPage.jpg" afterDir="false" />
+    <list default="true" id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/category/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/category/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/java/com/shopme/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/static/images/EStoreLogoSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/test/java/com/shopme/category/CategoryRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-photos/1/namhm.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +54,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2I03ZvJpVhSfrhXkWWhjxAtasll" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2JXbcKgDx8pFrSpxvTxKunqA7CH" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -64,125 +80,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\js" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\styles" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\static\images" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.shopme.admin.category" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shopme.admin.brand" />
-      <recent name="com.shopme.admin.category" />
-      <recent name="com.shopme.admin.user.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\LongTran\Documents\EStore-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\images" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\static\richtext" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\products" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\test\java\com\shopme\admin\brand" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeBackend\src\main\resources\templates\brands" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeFrontend\src\main\resources\static\images" />
     </key>
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean" />
-      <command value="mvn compile" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.ShopmeBackendApplication">
-    <configuration name="BrandRepositoryTests.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
+  <component name="RunManager" selected="Spring Boot.ShopmeFrontendApplication">
+    <configuration name="CategoryRepositoryTests.testListEnabledCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeFrontend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.brand.*" />
+          <option name="PATTERN" value="com.shopme.category.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.brand" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.brand.BrandRepositoryTests" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTests.testDeleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
-      <option name="METHOD_NAME" value="testDeleteProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTests.testSaveProductWithDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
-      <option name="METHOD_NAME" value="testSaveProductWithDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTests.testSaveProductWithImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
-      <option name="METHOD_NAME" value="testSaveProductWithImages" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTests.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.product" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.product.ProductRepositoryTests" />
-      <option name="METHOD_NAME" value="testUpdateProduct" />
+      <option name="PACKAGE_NAME" value="com.shopme.category" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.category.CategoryRepositoryTests" />
+      <option name="METHOD_NAME" value="testListEnabledCategories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,68 +136,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductRepositoryTests.testSaveProductWithDetails" />
-        <item itemvalue="JUnit.ProductRepositoryTests.testSaveProductWithImages" />
-        <item itemvalue="JUnit.BrandRepositoryTests.testFindAll" />
-        <item itemvalue="JUnit.ProductRepositoryTests.testDeleteProduct" />
-        <item itemvalue="JUnit.ProductRepositoryTests.testUpdateProduct" />
+        <item itemvalue="JUnit.CategoryRepositoryTests.testListEnabledCategories" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SpringBeansView">
-    <option name="showImplicitBeans" value="false" />
-    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9d83402-3281-4f62-8f6c-f7f0d6497979" name="Default Changelist" comment="" />
-      <created>1669304732126</created>
+      <changelist id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="" />
+      <created>1672227452796</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669304732126</updated>
-      <workItem from="1669304734266" duration="24912000" />
-      <workItem from="1669525907407" duration="1321000" />
-      <workItem from="1669611491491" duration="13701000" />
-      <workItem from="1669782115413" duration="7525000" />
-      <workItem from="1669867475578" duration="7085000" />
-      <workItem from="1669955998431" duration="22032000" />
-      <workItem from="1670162551975" duration="6305000" />
-      <workItem from="1670233847446" duration="9273000" />
-      <workItem from="1670296678510" duration="19327000" />
-      <workItem from="1670383935533" duration="13030000" />
-      <workItem from="1670560316273" duration="12724000" />
-      <workItem from="1670643636994" duration="5425000" />
-      <workItem from="1670658784104" duration="3622000" />
-      <workItem from="1670744680031" duration="1849000" />
-      <workItem from="1670821039407" duration="10134000" />
-      <workItem from="1670906415663" duration="9564000" />
-      <workItem from="1671077536385" duration="12062000" />
-      <workItem from="1671159897273" duration="13486000" />
-      <workItem from="1671194148880" duration="755000" />
-      <workItem from="1671195022174" duration="330000" />
-      <workItem from="1671362930314" duration="617000" />
-      <workItem from="1671384660855" duration="1954000" />
-      <workItem from="1671422348433" duration="1715000" />
-      <workItem from="1671511367305" duration="598000" />
-      <workItem from="1671519304569" duration="613000" />
-      <workItem from="1671521964694" duration="2074000" />
-      <workItem from="1671613441014" duration="1260000" />
-      <workItem from="1671639708884" duration="596000" />
-      <workItem from="1671781318342" duration="493000" />
-      <workItem from="1671951963060" duration="92000" />
-      <workItem from="1671996096201" duration="1721000" />
+      <updated>1672227452796</updated>
+      <workItem from="1672227454914" duration="627000" />
+      <workItem from="1672295363460" duration="10063000" />
     </task>
-    <task id="LOCAL-00001" summary="changed login.html colour">
-      <created>1671194397204</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671194397204</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,191 +170,50 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed login.html colour" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed login.html colour" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="2602" y="391" width="592" height="274" key="#Notifications" timestamp="1669871722109">
-      <screen x="1920" y="0" width="2560" height="1050" />
-    </state>
-    <state x="2602" y="391" width="592" height="274" key="#Notifications/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669871722109" />
-    <state x="1400" y="103" key="#Project_Structure" timestamp="1670582032834">
+    <state x="1374" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672321374553">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1400" y="103" key="#Project_Structure/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670582032834" />
-    <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669783156209">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="702" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669783156209" />
-    <state x="1095" y="206" key="#com.intellij.ide.util.MemberChooser" timestamp="1671165883573">
+    <state x="1374" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321374553" />
+    <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1672321361230">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1095" y="206" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671165883573" />
-    <state x="2740" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669976320863" />
-    <state x="3580" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670299114747" />
-    <state x="1245" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1669611871508" />
-    <state x="3575" y="397" width="530" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1669648492186">
-      <screen x="1920" y="0" width="2560" height="1050" />
-    </state>
-    <state x="3575" y="397" width="530" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669648492186" />
-    <state x="2438" y="362" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1670312570679">
-      <screen x="1920" y="0" width="2560" height="1050" />
-    </state>
-    <state x="2438" y="362" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670312570679" />
-    <state x="467" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670943613142">
+    <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321361230" />
+    <state width="1234" height="292" key="GridCell.Tab.0.bottom" timestamp="1672321846666">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="467" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670943613142" />
-    <state x="2387" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670411855425" />
-    <state x="1075" y="379" key="FileChooserDialogImpl" timestamp="1671192003212">
+    <state width="1234" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.0.center" timestamp="1672321846666">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1075" y="379" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671192003212" />
-    <state x="2995" y="379" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670390218711" />
-    <state x="806" y="379" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1669307020344" />
-    <state width="1018" height="221" key="GridCell.Tab.0.bottom" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.0.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.0.center" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.0.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.0.left" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.0.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.0.right" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.0.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.1.bottom" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.1.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.1.center" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.1.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.1.left" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.1.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="1018" height="221" key="GridCell.Tab.1.right" timestamp="1671997834361">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="831" height="383" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671124905754" />
-    <state width="1234" height="379" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671195430891" />
-    <state width="1234" height="230" key="GridCell.Tab.1.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1670052328483" />
-    <state width="1018" height="221" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1671997834361" />
-    <state width="1877" height="257" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669827340382" />
-    <state width="1234" height="224" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670414700787" />
-    <state width="1171" height="163" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669526637965" />
-    <state width="2517" height="238" key="GridCell.Tab.2.bottom" timestamp="1669977276090">
-      <screen x="1080" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="238" key="GridCell.Tab.2.bottom/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977276090" />
-    <state width="1122" height="351" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1669482498177" />
-    <state width="2517" height="238" key="GridCell.Tab.2.center" timestamp="1669977276090">
-      <screen x="1080" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="238" key="GridCell.Tab.2.center/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977276090" />
-    <state width="1122" height="351" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1669482498177" />
-    <state width="2517" height="238" key="GridCell.Tab.2.left" timestamp="1669977276090">
-      <screen x="1080" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="238" key="GridCell.Tab.2.left/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977276090" />
-    <state width="1122" height="351" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1669482498177" />
-    <state width="2517" height="238" key="GridCell.Tab.2.right" timestamp="1669977276090">
-      <screen x="1080" y="0" width="2560" height="1050" />
-    </state>
-    <state width="2517" height="238" key="GridCell.Tab.2.right/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977276090" />
-    <state width="1122" height="351" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1669482498177" />
-    <state x="-1476" y="199" key="SettingsEditor" timestamp="1671162664748">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1476" y="199" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671162664748" />
-    <state x="592" y="204" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670660277848" />
-    <state x="444" y="204" key="SettingsEditor/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813704864" />
-    <state x="3073" y="146" key="SettingsEditor/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1669651566303" />
-    <state x="506" y="199" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1669393276985" />
-    <state x="2473" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670302889859">
-      <screen x="1920" y="0" width="2560" height="1050" />
-    </state>
-    <state x="2473" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670302889859" />
-    <state x="1907" y="254" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1669977110259">
-      <screen x="1080" y="0" width="2560" height="1050" />
-    </state>
-    <state x="1907" y="254" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1080.1890/1080.0.2560.1050@1080.0.2560.1050" timestamp="1669977110259" />
-    <state x="92" y="92" width="1736" height="866" key="dock-window-1" timestamp="1669813709704">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="dock-window-1/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813709704" />
-    <state x="-409" y="391" width="1736" height="866" key="dock-window-2" timestamp="1669813709704">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-409" y="391" width="1736" height="866" key="dock-window-2/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813709704" />
-    <state x="1255" y="255" width="628" height="795" key="find.popup" timestamp="1671193758336">
+    <state width="1234" height="292" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.0.left" timestamp="1672321846665">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1255" y="255" width="628" height="795" key="find.popup/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1671193758336" />
-    <state x="3175" y="373" width="612" height="677" key="find.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670409161513" />
-    <state x="1014" y="247" width="672" height="677" key="run.anything.popup" timestamp="1669813465203">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1234" height="292" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846665" />
+    <state width="1234" height="292" key="GridCell.Tab.0.right" timestamp="1672321846666">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1669813465203" />
-    <state x="1014" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669479834722" />
-    <state x="777" y="181" width="538" height="527" key="search.everywhere.popup" timestamp="1671423160105">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1234" height="292" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.1.bottom" timestamp="1672321846666">
+      <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="-949" y="233" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1671092969681" />
-    <state x="1295" y="233" width="896" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1670944928205" />
-    <state x="777" y="181" width="538" height="527" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1671423160105" />
-    <state x="3215" y="233" width="896" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.2560.1050@1920.0.2560.1050" timestamp="1670333273484" />
-    <state x="971" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669544618128" />
+    <state width="1234" height="292" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.1.center" timestamp="1672321846666">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1234" height="292" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.1.left" timestamp="1672321846666">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1234" height="292" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state width="1234" height="292" key="GridCell.Tab.1.right" timestamp="1672321846666">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1234" height="292" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321846666" />
+    <state x="1400" y="99" key="SettingsEditor" timestamp="1672227484437">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672227484437" />
   </component>
 </project>

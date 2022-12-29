@@ -1,0 +1,7 @@
+com\shopme\common\entity\Product.class
+com\shopme\common\entity\User.class
+com\shopme\common\entity\Role.class
+com\shopme\common\entity\Category.class
+com\shopme\common\entity\ProductImage.class
+com\shopme\common\entity\Brand.class
+com\shopme\common\entity\ProductDetail.class

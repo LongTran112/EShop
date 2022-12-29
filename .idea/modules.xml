@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Shopme-Ecommerce.iml" filepath="$PROJECT_DIR$/Shopme-Ecommerce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/ShopmeBackend.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackend/ShopmeBackend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopmeCommon/ShopmeCommon.iml" filepath="$PROJECT_DIR$/ShopmeCommon/ShopmeCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/ShopmeFrontend.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/ShopmeFrontend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopmeWebParent/ShopmeWebParent.iml" filepath="$PROJECT_DIR$/ShopmeWebParent/ShopmeWebParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStoreWebParent/EStoreB2B/ShopmeBackend.iml" filepath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/ShopmeBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStoreEntity/ShopmeCommon.iml" filepath="$PROJECT_DIR$/EStoreEntity/ShopmeCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStoreWebParent/EStoreB2C/ShopmeFrontend.iml" filepath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/ShopmeFrontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EStoreWebParent/ShopmeWebParent.iml" filepath="$PROJECT_DIR$/EStoreWebParent/ShopmeWebParent.iml" />
     </modules>
   </component>
 </project>
