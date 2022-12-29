@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/products_by_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductSaveHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/category/CategoryRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/category/CategoryRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-images/107/batch-files-automate-670x335.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +77,7 @@
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeFrontend\src\main\resources\static\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopmeFrontendApplication">
+  <component name="RunManager" selected="Spring Boot.ShopmeBackendApplication">
     <configuration name="CategoryRepositoryTests.testListEnabledCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeFrontend" />
       <extension name="coverage">
@@ -136,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672227452796</updated>
       <workItem from="1672227454914" duration="627000" />
-      <workItem from="1672295363460" duration="12608000" />
+      <workItem from="1672295363460" duration="20036000" />
     </task>
     <servers />
   </component>
@@ -168,41 +164,53 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321361230" />
-    <state width="1234" height="292" key="GridCell.Tab.0.bottom" timestamp="1672328207922">
+    <state width="1234" height="227" key="GridCell.Tab.0.bottom" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
-    <state width="1234" height="292" key="GridCell.Tab.0.center" timestamp="1672328207922">
+    <state width="1234" height="227" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.0.center" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
-    <state width="1234" height="292" key="GridCell.Tab.0.left" timestamp="1672328207922">
+    <state width="1234" height="227" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.0.left" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
-    <state width="1234" height="292" key="GridCell.Tab.0.right" timestamp="1672328207922">
+    <state width="1234" height="227" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.0.right" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
-    <state width="1234" height="292" key="GridCell.Tab.1.bottom" timestamp="1672328207923">
+    <state width="1234" height="227" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.1.bottom" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
-    <state width="1234" height="292" key="GridCell.Tab.1.center" timestamp="1672328207923">
+    <state width="1234" height="227" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115706" />
+    <state width="1234" height="227" key="GridCell.Tab.1.center" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
-    <state width="1234" height="292" key="GridCell.Tab.1.left" timestamp="1672328207922">
+    <state width="1234" height="227" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.1.left" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207922" />
-    <state width="1234" height="292" key="GridCell.Tab.1.right" timestamp="1672328207923">
+    <state width="1234" height="227" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
+    <state width="1234" height="227" key="GridCell.Tab.1.right" timestamp="1672335731219">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="1234" height="292" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672328207923" />
+    <state width="1234" height="227" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672335731219" />
+    <state width="1037" height="943" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672334115705" />
     <state x="1400" y="99" key="SettingsEditor" timestamp="1672227484437">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672227484437" />
+    <state x="1435" y="510" width="585" height="530" key="find.popup" timestamp="1672333787138">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1435" y="510" width="585" height="530" key="find.popup/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672333787138" />
   </component>
 </project>

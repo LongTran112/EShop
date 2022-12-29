@@ -21,7 +21,7 @@ public class ProductService {
     @Autowired
     private ProductRepository repo;
 
-    public List<Product> listAll(){
+    public List<Product> listAll() {
         return (List<Product>) repo.findAll();
     }
 
@@ -50,16 +50,16 @@ public class ProductService {
         return repo.findAll(pageable);
     }
 
-    public Product save(Product product){
-        if(product.getId() == null){
+    public Product save(Product product) {
+        if (product.getId() == null) {
             product.setCreatedTime(new Date());
         }
 
-        if (product.getAlias() == null || product.getAlias().isEmpty()){
-            String defaultAlias = product.getName().replaceAll(" ", "_");
+        if (product.getAlias() == null || product.getAlias().isEmpty()) {
+            String defaultAlias = product.getName().replaceAll(" ", "-");
             product.setAlias(defaultAlias);
-        }else {
-            product.setAlias(product.getAlias().replaceAll(" ", "_"));
+        } else {
+            product.setAlias(product.getAlias().replaceAll(" ", "-"));
         }
 
         product.setUpdatedTime(new Date());
@@ -75,7 +75,6 @@ public class ProductService {
 
         repo.save(productInDB);
     }
-
 
     public String checkUnique(Integer id, String name) {
         boolean isCreatingNew = (id == null || id == 0);
@@ -96,11 +95,11 @@ public class ProductService {
         repo.updateEnabledStatus(id, enabled);
     }
 
-    public void delete(Integer id) throws ProductNotFoundException{
+    public void delete(Integer id) throws ProductNotFoundException {
         Long countById = repo.countById(id);
 
-        if (countById == null || countById == 0){
-            throw new ProductNotFoundException("Could not find any product with ID" + id);
+        if (countById == null || countById == 0) {
+            throw new ProductNotFoundException("Could not find any product with ID " + id);
         }
 
         repo.deleteById(id);
