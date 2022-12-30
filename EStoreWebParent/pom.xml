@@ -14,8 +14,8 @@
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
     <modules>
-        <module>ShopmeBackend</module>
-        <module>ShopmeFrontend</module>
+        <module>EStoreB2B</module>
+        <module>EStoreB2C</module>
     </modules>
     <properties>
         <java.version>11</java.version>

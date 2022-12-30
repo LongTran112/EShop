@@ -10,8 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <description>Root project</description>
     <modules>
-        <module>ShopmeCommon</module>
-        <module>ShopmeWebParent</module>
+        <module>EStoreEntity</module>
+        <module>EStoreWebParent</module>
     </modules>
 
     <properties>

@@ -22,4 +22,15 @@ public class ProductService {
         return repo.listByCategory(categoryId, categoryIdMatch, pageable);
 
     }
+
+    public Product getProduct(String alias) throws ProductNotFoundException {
+        Product product = repo.findByAlias(alias);
+        if (product == null) {
+            throw new ProductNotFoundException("Could not find any product with alias " + alias);
+        }
+
+        return product;
+    }
+
+
 }
