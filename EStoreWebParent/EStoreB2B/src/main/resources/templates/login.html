@@ -19,10 +19,14 @@
 	
 	<form th:action="@{/login}" method="post" style="max-width: 350px; margin: 0 auto">
 		<div th:if="${param.error}">
-			<p class="text-danger">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+			<p class="w-15 shadow p-3 mb-5 bg-danger text-white rounded">
+				[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]
+			</p>
 		</div>
 		<div th:if="${param.logout}">
-			<p class="text-warning">You have been logged out.</p>
+			<p class="w-15 shadow p-3 mb-5 bg-warning text-dark rounded">
+				You have been logged out.
+			</p>
 		</div>
 		
 		<div class="border border-secondary rounded p-3" style="background: antiquewhite;">
@@ -41,9 +45,13 @@
 			</p>			
 		</div>
 	</form>
+
+	<br>
 	
-	<div>
-		<p>EStore Control Panel - Copyright &copy; EStore</p>
+	<div class="d-flex justify-content-center">
+		<p class="w-15 shadow p-3 mb-5 bg-secondary text-white rounded">
+			EStore Control Panel - Copyright &copy; EStore
+		</p>
 	</div>
 	
 </div>

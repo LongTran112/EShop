@@ -13,9 +13,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Shopme-Ecommerce" target="11" />
-      <module name="ShopmeBackend" target="13" />
+      <module name="ShopmeBackend" target="11" />
       <module name="ShopmeCommon" target="11" />
-      <module name="ShopmeFrontend" target="11" />
+      <module name="ShopmeFrontend" target="1.8" />
       <module name="ShopmeWebParent" target="11" />
     </bytecodeTargetLevel>
   </component>

@@ -1,7 +1,13 @@
-com\shopme\common\entity\Product.class
 com\shopme\common\entity\User.class
 com\shopme\common\entity\Role.class
-com\shopme\common\entity\Category.class
-com\shopme\common\entity\ProductImage.class
+com\shopme\common\entity\SettingTemplate.class
+com\shopme\common\entity\Currency.class
+com\shopme\common\entity\State.class
 com\shopme\common\entity\Brand.class
+com\shopme\common\entity\Product.class
+com\shopme\common\entity\Category.class
+com\shopme\common\entity\SettingCategory.class
+com\shopme\common\entity\ProductImage.class
+com\shopme\common\entity\Setting.class
+com\shopme\common\entity\Country.class
 com\shopme\common\entity\ProductDetail.class
