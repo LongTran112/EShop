@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface StateRepository extends CrudRepository<State, Integer> {
 
-    public List<State> findByCountryOrderByNameAsc(Country country);
+    List<State> findByCountryOrderByNameAsc(Country country);
 }

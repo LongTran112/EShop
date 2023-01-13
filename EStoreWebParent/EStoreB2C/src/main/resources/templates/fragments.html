@@ -7,6 +7,7 @@
     <title>[[${title}]] - [[${SITE_NAME}]]</title>
 
     <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/fontawesome/all.css}" />
     <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}" ></script>
     <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}" ></script>
 </head>
@@ -50,10 +51,6 @@
         </nav>
     </div>
 
-    <div th:fragment="footer" class="text-center m-3">
-        <p>[[${COPYRIGHT}]]</p>
-    </div>
-
     <div th:fragment="modal_dialog" class="modal fade text-center" id="modalDialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -72,7 +69,6 @@
             </div>
         </div>
     </div>
-
 
 </div>
 </body>

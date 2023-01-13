@@ -1,0 +1,40 @@
+server:
+    port: 8082
+    servlet:
+        context-path: /EStore
+spring:
+    datasource:
+        password: A@12345abc
+        url: jdbc:mysql://localhost:3306/estore_db
+        username: longtran
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+                format_sql: true
+        show-sql: false
+    mail:
+        properties:
+            mail:
+                smtp:
+                    ssl:
+                        enable: true
+                        trust: smtp.gmail.com
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        client-id: 823049914757-rv0avg7r1hvi7uadaurnjemtdaq638d8.apps.googleusercontent.com
+                        client-secret: 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
+                        scope:
+                            - email
+                            - profile
+                    facebook:
+                        client-id: 1207316173206719
+                        client-secret: e744e7ee1d58058853ab444522d1b8cd
+                        scope:
+                            - email
+                            - public_profile

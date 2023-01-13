@@ -20,89 +20,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/SettingCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/SettingTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/StateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/CurrencyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/GeneralSettingTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/country/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/country/CountryRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/state/StateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/state/StateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/state/StateRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/countries_setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/states_setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/countries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_server.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_templates/customer_verification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_templates/mail_templates.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/states.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/setting/CurrencyRepoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/setting/SettingRepoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/setting/country/CountryRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/setting/country/CountryRestControllerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/setting/state/StateRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/EmailSettingTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/StateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/StateRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/images_carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_fragment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/search_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/register_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/register_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/verify_fail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/verify_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/setting/SettingRepoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/AuthenticationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/customer/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/customer/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customer_detail_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customer_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/ForgotPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/CustomerUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/CustomerUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/DatabaseLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/oauth/CustomerOAuth2User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/oauth/CustomerOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/oauth/OAuth2LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/fontawesome/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/common_customer_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/customer/account_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/customer/forgot_password_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/customer/reset_password_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/customer/CustomerRepoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/ShopmeCommon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/ShopmeCommon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/META-INF/ShopmeCommon.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/ProductDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/ProductDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/ProductImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/ProductImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/category/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/product/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/StateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/StateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/products_by_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/products_by_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/register/register_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +89,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Interface" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
@@ -139,7 +117,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeFrontend/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/webfonts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,13 +129,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\templates\product" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static\webfonts" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\ShopmeWebParent\ShopmeFrontend\src\main\resources\static\images" />
     </key>
   </component>
@@ -168,38 +149,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopmeFrontendApplication">
-    <configuration name="CountryRepositoryTests.testCreateCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.setting.country.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.setting.country" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.setting.country.CountryRepositoryTests" />
-      <option name="METHOD_NAME" value="testCreateCountry" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountryRepositoryTests.testListCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.setting.country.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.setting.country" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.setting.country.CountryRepositoryTests" />
-      <option name="METHOD_NAME" value="testListCountries" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CountryRestControllerTests.testCreateCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
@@ -248,6 +197,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerRepoTests.testCreateCustomer1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeFrontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.customer" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.customer.CustomerRepoTests" />
+      <option name="METHOD_NAME" value="testCreateCustomer1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoTests.testUpdateAuthenticationType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeFrontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.customer" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.customer.CustomerRepoTests" />
+      <option name="METHOD_NAME" value="testUpdateAuthenticationType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopmeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ShopmeWebParent" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.ShopmeApplication" />
@@ -271,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerRepoTests.testUpdateAuthenticationType" />
+        <item itemvalue="JUnit.CustomerRepoTests.testCreateCustomer1" />
         <item itemvalue="JUnit.CountryRestControllerTests.testUpdateCountry" />
         <item itemvalue="JUnit.CountryRestControllerTests.testCreateCountry" />
         <item itemvalue="JUnit.CountryRestControllerTests.testListCountries" />
-        <item itemvalue="JUnit.CountryRepositoryTests.testListCountries" />
-        <item itemvalue="JUnit.CountryRepositoryTests.testCreateCountry" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +284,10 @@
       <workItem from="1672804910534" duration="11610000" />
       <workItem from="1672894689505" duration="11913000" />
       <workItem from="1672980972201" duration="7053000" />
-      <workItem from="1673088719776" duration="9953000" />
+      <workItem from="1673088719776" duration="15197000" />
+      <workItem from="1673235857610" duration="12947000" />
+      <workItem from="1673323565120" duration="25541000" />
+      <workItem from="1673570857133" duration="1008000" />
     </task>
     <servers />
   </component>
@@ -332,71 +316,93 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1374" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321374553" />
-    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1673099992151">
+    <state x="3251" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1673446432171">
+      <screen x="2560" y="0" width="1920" height="1050" />
+    </state>
+    <state x="3251" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673446432171" />
+    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1673571311619">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673099992151" />
+    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571311619" />
+    <state x="2866" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673410253316" />
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1672321361230">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321361230" />
-    <state width="1234" height="371" key="GridCell.Tab.0.bottom" timestamp="1673103508308">
+    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1673155316044">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673155316044" />
+    <state x="3250" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673446376627">
+      <screen x="2560" y="0" width="1920" height="1050" />
+    </state>
+    <state x="3250" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673446376627" />
+    <state width="1234" height="373" key="GridCell.Tab.0.bottom" timestamp="1673571916170">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508308" />
-    <state width="1234" height="371" key="GridCell.Tab.0.center" timestamp="1673103508308">
+    <state width="1234" height="373" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916170" />
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
+    <state width="1234" height="373" key="GridCell.Tab.0.center" timestamp="1673571916170">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508308" />
-    <state width="1234" height="371" key="GridCell.Tab.0.left" timestamp="1673103508308">
+    <state width="1234" height="373" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916170" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
+    <state width="1234" height="373" key="GridCell.Tab.0.left" timestamp="1673571916169">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508308" />
-    <state width="1234" height="371" key="GridCell.Tab.0.right" timestamp="1673103508308">
+    <state width="1234" height="373" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916169" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
+    <state width="1234" height="373" key="GridCell.Tab.0.right" timestamp="1673571916170">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508308" />
-    <state width="1234" height="371" key="GridCell.Tab.1.bottom" timestamp="1673103508309">
+    <state width="1234" height="373" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916170" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
+    <state width="1234" height="373" key="GridCell.Tab.1.bottom" timestamp="1673571916171">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824610" />
-    <state width="1234" height="371" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508309" />
-    <state width="1234" height="371" key="GridCell.Tab.1.center" timestamp="1673103508309">
+    <state width="1234" height="373" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916171" />
+    <state width="1877" height="374" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
+    <state width="1234" height="373" key="GridCell.Tab.1.center" timestamp="1673571916170">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508309" />
-    <state width="1234" height="371" key="GridCell.Tab.1.left" timestamp="1673103508309">
+    <state width="1234" height="373" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916170" />
+    <state width="1877" height="374" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
+    <state width="1234" height="373" key="GridCell.Tab.1.left" timestamp="1673571916170">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="371" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508309" />
-    <state width="1234" height="371" key="GridCell.Tab.1.right" timestamp="1673103508309">
+    <state width="1234" height="373" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916170" />
+    <state width="1877" height="374" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
+    <state width="1234" height="373" key="GridCell.Tab.1.right" timestamp="1673571916171">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824610" />
-    <state width="1234" height="371" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673103508309" />
+    <state width="1234" height="373" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673571916171" />
+    <state width="1877" height="374" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
     <state x="177" y="180" key="Maven.ArtifactSearchDialog" timestamp="1672920160096">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="177" y="180" key="Maven.ArtifactSearchDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1672920160096" />
-    <state x="1400" y="99" key="SettingsEditor" timestamp="1672982273695">
-      <screen x="0" y="0" width="2560" height="1050" />
+    <state x="3440" y="99" key="SettingsEditor" timestamp="1673437216597">
+      <screen x="2560" y="0" width="1920" height="1050" />
     </state>
     <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672227484437" />
     <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1672982273695" />
+    <state x="3440" y="99" key="SettingsEditor/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673437216597" />
     <state x="1435" y="510" width="585" height="530" key="find.popup" timestamp="1672333787138">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -406,5 +412,9 @@
     </state>
     <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672376013105" />
     <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1672982316401" />
+    <state x="3183" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1673517940950">
+      <screen x="2560" y="0" width="1920" height="1050" />
+    </state>
+    <state x="3183" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517940950" />
   </component>
 </project>
