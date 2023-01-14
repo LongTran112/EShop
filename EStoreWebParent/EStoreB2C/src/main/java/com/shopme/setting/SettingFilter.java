@@ -22,24 +22,20 @@ public class SettingFilter implements Filter {
         HttpServletRequest servletRequest = (HttpServletRequest) request;
         String url = servletRequest.getRequestURL().toString();
 
-
         if (url.endsWith(".css") || url.endsWith(".js") || url.endsWith(".png") ||
                 url.endsWith(".jpg")) {
             chain.doFilter(request, response);
             return;
         }
 
-//        System.out.println(url);
-
         List<Setting> generalSettings = service.getGeneralSettings();
 
         generalSettings.forEach(setting -> {
-//            System.out.println(setting);
             request.setAttribute(setting.getKey(), setting.getValue());
+//            System.out.println(setting.getKey() + " == > " + setting.getValue());
         });
 
         chain.doFilter(request, response);
-
 
     }
 

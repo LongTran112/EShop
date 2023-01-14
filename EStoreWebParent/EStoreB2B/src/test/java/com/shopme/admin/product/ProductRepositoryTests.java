@@ -22,12 +22,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Rollback(false)
 public class ProductRepositoryTests {
     @Autowired
-    private ProductRepository repository;
+    private ProductRepository repo;
     @Autowired
     private TestEntityManager entityManager;
 
     @Test
-    public void testCreateProduct(){
+    public void testCreateProduct() {
         Brand brand = entityManager.find(Brand.class, 37);
         Category category = entityManager.find(Category.class, 5);
 
@@ -40,7 +40,7 @@ public class ProductRepositoryTests {
         product.setBrand(brand);
         product.setCategory(category);
 
-        product.setPrice(new BigDecimal(678));
+        product.setPrice(678);
         product.setCost(600);
         product.setEnabled(true);
         product.setInStock(true);
@@ -48,7 +48,7 @@ public class ProductRepositoryTests {
         product.setCreatedTime(new Date());
         product.setUpdatedTime(new Date());
 
-        Product savedProduct = repository.save(product);
+        Product savedProduct = repo.save(product);
 
         assertThat(savedProduct).isNotNull();
         assertThat(savedProduct.getId()).isGreaterThan(0);
@@ -56,37 +56,37 @@ public class ProductRepositoryTests {
 
     @Test
     public void testListAllProducts(){
-        Iterable<Product> productIterable = repository.findAll();
+        Iterable<Product> productIterable = repo.findAll();
         productIterable.forEach(System.out::println);
     }
 
     @Test
     public void testGetProduct(){
         Integer id = 2;
-        Product product = repository.findById(id).get();
+        Product product = repo.findById(id).get();
         System.out.println(product);
         assertThat(product).isNotNull();
     }
 
     @Test
-    public void testUpdateProduct(){
+    public void testUpdateProduct() {
         Integer id = 1;
-        Product product = repository.findById(id).get();
-        product.setPrice(new BigDecimal(499));
+        Product product = repo.findById(id).get();
+        product.setPrice(499);
 
-        repository.save(product);
+        repo.save(product);
 
         Product updatedProduct = entityManager.find(Product.class, id);
 
-        assertThat(updatedProduct.getPrice()).isEqualTo(new BigDecimal(499));
+        assertThat(updatedProduct.getPrice()).isEqualTo(499);
     }
 
     @Test
     public void testDeleteProduct(){
         Integer id = 3;
-        repository.deleteById(id);
+        repo.deleteById(id);
 
-        Optional<Product> result = repository.findById(id);
+        Optional<Product> result = repo.findById(id);
         assertThat(!result.isPresent());
 
     }
@@ -94,14 +94,14 @@ public class ProductRepositoryTests {
     @Test
     public void testSaveProductWithImages() {
         Integer productId = 1;
-        Product product = repository.findById(productId).get();
+        Product product = repo.findById(productId).get();
 
         product.setMainImage("main image.jpg");
         product.addExtraImage("extra image 1.png");
         product.addExtraImage("extra_image_2.png");
         product.addExtraImage("extra-image3.png");
 
-        Product savedProduct = repository.save(product);
+        Product savedProduct = repo.save(product);
 
         assertThat(savedProduct.getImages().size()).isEqualTo(3);
     }
@@ -109,13 +109,13 @@ public class ProductRepositoryTests {
     @Test
     public void testSaveProductWithDetails() {
         Integer productId = 1;
-        Product product = repository.findById(productId).get();
+        Product product = repo.findById(productId).get();
 
         product.addDetail("Device Memory", "128 GB");
         product.addDetail("CPU Model", "MediaTek");
         product.addDetail("OS", "Android 10");
 
-        Product savedProduct = repository.save(product);
+        Product savedProduct = repo.save(product);
         assertThat(savedProduct.getDetails()).isNotEmpty();
     }
 

@@ -1,11 +1,14 @@
 package com.shopme.admin.security;
 
+import com.shopme.admin.paging.PagingAndSortingArgumentResolver;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
@@ -28,6 +31,11 @@ public class MvcConfig implements WebMvcConfigurer {
 
 		registry.addResourceHandler(logicalPath)
 				.addResourceLocations("file:/" + absolutePath + "/");
+	}
+
+	@Override
+	public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
+		resolvers.add(new PagingAndSortingArgumentResolver());
 	}
 
 }

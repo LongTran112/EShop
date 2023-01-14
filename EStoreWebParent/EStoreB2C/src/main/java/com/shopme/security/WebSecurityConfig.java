@@ -48,8 +48,9 @@ public class WebSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/register", "/forgot_password","/reset_password").permitAll()
-                .antMatchers("/account_details", "/update_account_details").authenticated()
+                .antMatchers("/register", "/forgot_password","/reset_password:").permitAll()
+                .antMatchers("/account_details", "/update_account_details"
+                        ,"/place_order", "/process_paypal_order").authenticated()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()

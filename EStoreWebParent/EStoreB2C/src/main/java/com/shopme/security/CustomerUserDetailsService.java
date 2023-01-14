@@ -9,8 +9,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 public class CustomerUserDetailsService implements UserDetailsService {
 
-    @Autowired
-    private CustomerRepository repo;
+    @Autowired private CustomerRepository repo;
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {

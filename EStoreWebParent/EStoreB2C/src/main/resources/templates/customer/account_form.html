@@ -4,6 +4,7 @@
 <body>
 <div class="container-fluid">
     <div th:replace="navigation :: header_menu"></div>
+    <div th:replace="navigation :: search_nav"></div>
     <div>&nbsp;</div>
 
     <div class="text-center">
@@ -14,6 +15,7 @@
     <form th:action="@{/update_account_details}" method="post" th:object="${customer}"
           style="max-width: 600px; margin: 0 auto">
         <input type="hidden" th:field="*{id}" />
+        <input type="hidden" name="redirect" th:value="${param.redirect}" />
         <div th:if="${message != null}" class="alert alert-success text-center">
             [[${message}]]
         </div>
@@ -135,6 +137,7 @@
         </div>
     </form>
 
+    <div>&nbsp;</div>
     <div th:replace="navigation :: footer_menu"></div>
 </div>
 <script type="text/javascript">

@@ -13,26 +13,31 @@ public class Product {
 
     @Column(unique = true, length = 256, nullable = false)
     private String name;
+
     @Column(unique = true, length = 256, nullable = false)
     private String alias;
-    @Column(length = 4096, nullable = false, name = "short_description")
+
+    @Column(length = 512, nullable = false, name = "short_description")
     private String shortDescription;
+
     @Column(length = 4096, nullable = false, name = "full_description")
     private String fullDescription;
 
     @Column(name = "created_time")
     private Date createdTime;
+
     @Column(name = "updated_time")
     private Date updatedTime;
 
     private boolean enabled;
+
     @Column(name = "in_stock")
     private boolean inStock;
 
-    @Column(nullable = false)
     private float cost;
 
-    private BigDecimal price;
+    private float price;
+
     @Column(name = "discount_percent")
     private float discountPercent;
 
@@ -57,6 +62,14 @@ public class Product {
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ProductDetail> details = new ArrayList<>();
+
+
+    public Product(Integer id) {
+        this.id = id;
+    }
+
+    public Product() {
+    }
 
     public Integer getId() {
         return id;
@@ -138,11 +151,11 @@ public class Product {
         this.cost = cost;
     }
 
-    public BigDecimal getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 
@@ -202,6 +215,11 @@ public class Product {
         this.brand = brand;
     }
 
+    @Override
+    public String toString() {
+        return "Product [id=" + id + ", name=" + name + "]";
+    }
+
     public String getMainImage() {
         return mainImage;
     }
@@ -218,29 +236,8 @@ public class Product {
         this.images = images;
     }
 
-    public void addExtraImage(String imageName){
+    public void addExtraImage(String imageName) {
         this.images.add(new ProductImage(imageName, this));
-    }
-
-    public boolean containsImageName(String imageName) {
-        Iterator<ProductImage> iterator = images.iterator();
-
-        while (iterator.hasNext()) {
-            ProductImage image = iterator.next();
-            if (image.getName().equals(imageName)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
     }
 
     @Transient
@@ -266,6 +263,19 @@ public class Product {
         this.details.add(new ProductDetail(id, name, value, this));
     }
 
+    public boolean containsImageName(String imageName) {
+        Iterator<ProductImage> iterator = images.iterator();
+
+        while (iterator.hasNext()) {
+            ProductImage image = iterator.next();
+            if (image.getName().equals(imageName)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     @Transient
     public String getShortName() {
         if (name.length() > 70) {
@@ -277,8 +287,8 @@ public class Product {
     @Transient
     public float getDiscountPrice() {
         if (discountPercent > 0) {
-            return price.floatValue() * ((100 - discountPercent) / 100);
+            return price * ((100 - discountPercent) / 100);
         }
-        return this.price.floatValue();
+        return this.price;
     }
 }

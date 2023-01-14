@@ -16,8 +16,7 @@ import java.io.IOException;
 @Component
 public class DatabaseLoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
-    @Autowired
-    private CustomerService customerService;
+    @Autowired private CustomerService customerService;
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
