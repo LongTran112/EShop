@@ -1,5 +1,6 @@
 package com.shopme.admin.product;
 
+import com.shopme.admin.paging.PagingAndSortingHelper;
 import com.shopme.common.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -48,6 +49,13 @@ public class ProductService {
         }
 
         return repo.findAll(pageable);
+    }
+
+    public void searchProducts(int pageNum, PagingAndSortingHelper helper) {
+        Pageable pageable = helper.createPageable(PRODUCTS_PER_PAGE, pageNum);
+        String keyword = helper.getKeyword();
+        Page<Product> page = repo.searchProductsByName(keyword, pageable);
+        helper.updateModelAttributes(pageNum, page);
     }
 
     public Product save(Product product) {

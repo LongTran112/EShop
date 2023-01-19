@@ -20,111 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b631a77f-5b9e-4aa8-a22b-6c2a225d3a00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/ShippingRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/paging/PagingAndSortingArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/paging/PagingAndSortingHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/paging/PagingAndSortingParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/paging/SearchRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/common_form_country_state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_details_modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_templates/order_confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/payment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/shipping_rates/shipping_rate_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/shipping_rates/shipping_rates.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/shipping_rates/shipping_rates_fragment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/order/OrderRepoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/address/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/address/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/address/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/CheckoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/CheckoutInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/CheckoutService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/paypal/PayPalApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/paypal/PayPalOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/checkout/paypal/PayPalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/CurrencyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/CurrencySettingTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/PaymentSettingTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shipping/ShippingRateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shipping/ShippingRateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shoppingcart/CartItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shoppingcart/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shoppingcart/ShoppingCartException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shoppingcart/ShoppingCartRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/shoppingcart/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/add_to_cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/common_modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/jquery.number.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/quantity_control.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/shopping_cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/address_book/address_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/address_book/addresses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/cart/quantity_control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/cart/shopping_cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/checkout/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/checkout/order_completed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/address/AddressRepoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/checkout/paypal/PayPalApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/shipping/ShippingRateRepoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/shoppingcart/CartItemRepoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/OrderTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderTrack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/ProductSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/jquery.number.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/order_form_add_product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/order_form_overview_products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/order_form_remove_product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/order_form_tracks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/js/orders_shipper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/add_product_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_form_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_form_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_form_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_form_tracks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_status_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/orders_shipper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/search_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/order/OrderRestControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/shippingrate/ShippingRateRepoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/shippingrate/ShippingRateServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderReturnRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderReturnResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/return_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/orders/order_details_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/orders/order_status_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/orders/orders_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/orders/return_order_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/test/java/com/shopme/order/OrderRestControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/setting/SettingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/brands/brands.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/brands/brands.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/categories/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/categories/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customer_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customer_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/customers/customers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/products/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_templates/mail_templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/mail_templates/mail_templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/settings/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/users/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/users/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/product/ProductRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/product/ProductRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreEntity/target/classes/com/shopme/common/entity/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/java/com/shopme/admin/shippingrate/ShippingRateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_details_modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/order_details_modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/templates/orders/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/brand/BrandServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/brand/BrandServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/order/OrderRepoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/test/java/com/shopme/admin/order/OrderRepoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/CustomerUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/CustomerUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/DatabaseLoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/DatabaseLoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/order/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/oauth/OAuth2LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/security/oauth/OAuth2LoginSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/EmailSettingTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/EmailSettingTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/java/com/shopme/setting/SettingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/common_customer_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/js/common_customer_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/customer/account_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/customer/account_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/static/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/EStoreWebParent/EStoreB2C/src/main/resources/templates/product/product_fragment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,12 +101,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="AnnotationType" />
-        <option value="Enum" />
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -164,7 +130,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EStoreEntity/src/main/java/com/shopme/common/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EStoreWebParent/EStoreB2B/src/main/resources/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -179,17 +145,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreEntity\src\main\java\com\shopme\common\entity" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\templates\address_book" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2B\src\main\resources\static\js" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static" />
-      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2B\src\main\resources\static\styles" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static\styles" />
       <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\templates\product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2B\src\main\resources\static" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2B\src\main\resources\static\js" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreEntity\src\main\java\com\shopme\common\entity" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\templates\address_book" />
+      <recent name="C:\Users\Admin\Documents\Shopme-Ecommerce\EShop\EStoreWebParent\EStoreB2C\src\main\resources\static" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -200,23 +166,54 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopmeFrontendApplication">
-    <configuration name="AddressRepoTests.testFindByCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CategoryRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeFrontend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.address.*" />
+          <option name="PATTERN" value="com.shopme.category.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.address" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.address.AddressRepoTests" />
-      <option name="METHOD_NAME" value="testFindByCustomer" />
+      <option name="PACKAGE_NAME" value="com.shopme.category" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.category.CategoryRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRestControllerTests.testSendOrderReturnRequestFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeFrontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.order" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.order.OrderRestControllerTests" />
+      <option name="METHOD_NAME" value="testSendOrderReturnRequestFailed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepoTests.testCreateNewOrderWithMultipleProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderRestControllerTests.testSendOrderReturnRequestSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeFrontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.order" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.order.OrderRestControllerTests" />
+      <option name="METHOD_NAME" value="testSendOrderReturnRequestSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRestControllerTests.testUpdateOrderStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
@@ -225,57 +222,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shopme.admin.order" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.order.OrderRepoTests" />
-      <option name="METHOD_NAME" value="testCreateNewOrderWithMultipleProducts" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.order.OrderRestControllerTests" />
+      <option name="METHOD_NAME" value="testUpdateOrderStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepoTests.testCreateNewOrderWithSingleProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShippingRateServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shopme.admin.order.*" />
+          <option name="PATTERN" value="com.shopme.admin.shippingrate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.order" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.order.OrderRepoTests" />
-      <option name="METHOD_NAME" value="testCreateNewOrderWithSingleProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PayPalApiTests.testGetOrderDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeFrontend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.checkout.paypal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.checkout.paypal" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.checkout.paypal.PayPalApiTests" />
-      <option name="METHOD_NAME" value="testGetOrderDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShippingRateRepoTests.testFindByCountryAndState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeFrontend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.shipping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.shipping" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.shipping.ShippingRateRepoTests" />
-      <option name="METHOD_NAME" value="testFindByCountryAndState" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.shopme.admin.shippingrate" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.shippingrate.ShippingRateServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PayPalApiTests.testGetOrderDetails" />
-        <item itemvalue="JUnit.ShippingRateRepoTests.testFindByCountryAndState" />
-        <item itemvalue="JUnit.OrderRepoTests.testCreateNewOrderWithMultipleProducts" />
-        <item itemvalue="JUnit.OrderRepoTests.testCreateNewOrderWithSingleProduct" />
-        <item itemvalue="JUnit.AddressRepoTests.testFindByCustomer" />
+        <item itemvalue="JUnit.ShippingRateServiceTests" />
+        <item itemvalue="JUnit.CategoryRepositoryTests" />
+        <item itemvalue="JUnit.OrderRestControllerTests.testSendOrderReturnRequestSuccessful" />
+        <item itemvalue="JUnit.OrderRestControllerTests.testSendOrderReturnRequestFailed" />
+        <item itemvalue="JUnit.OrderRestControllerTests.testUpdateOrderStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +303,12 @@
       <workItem from="1673235857610" duration="12947000" />
       <workItem from="1673323565120" duration="25541000" />
       <workItem from="1673570857133" duration="20995000" />
-      <workItem from="1673659548869" duration="9635000" />
+      <workItem from="1673659548869" duration="14341000" />
+      <workItem from="1673836730708" duration="4299000" />
+      <workItem from="1673870312524" duration="6163000" />
+      <workItem from="1673921373610" duration="15552000" />
+      <workItem from="1674010106119" duration="2277000" />
+      <workItem from="1674093691331" duration="17649000" />
     </task>
     <servers />
   </component>
@@ -372,79 +341,83 @@
       <screen x="2560" y="0" width="1920" height="1050" />
     </state>
     <state x="3251" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673446432171" />
-    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1673667662468">
+    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1674101118452">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673667662468" />
+    <state x="408" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674101118452" />
     <state x="2866" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673410253316" />
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1672321361230">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1649" y="318" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672321361230" />
-    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1673155316044">
+    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1674115288067">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673155316044" />
-    <state x="920" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673581910580">
+    <state x="406" y="394" width="481" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674115288067" />
+    <state x="920" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673884223715">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="920" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673581910580" />
+    <state x="920" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673884223715" />
     <state x="3250" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673446376627" />
-    <state width="1234" height="373" key="GridCell.Tab.0.bottom" timestamp="1673673935472">
+    <state x="427" y="283" key="FileChooserDialogImpl" timestamp="1674115151130">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="427" y="283" key="FileChooserDialogImpl/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674115151130" />
+    <state width="2517" height="215" key="GridCell.Tab.0.bottom" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
-    <state width="1234" height="373" key="GridCell.Tab.0.center" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.0.center" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
-    <state width="1234" height="373" key="GridCell.Tab.0.left" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.0.left" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
-    <state width="1234" height="373" key="GridCell.Tab.0.right" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.0.right" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982911" />
-    <state width="1234" height="373" key="GridCell.Tab.1.bottom" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.1.bottom" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824610" />
-    <state width="1234" height="373" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
-    <state width="1234" height="373" key="GridCell.Tab.1.center" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.1.center" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.1.center/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
-    <state width="1234" height="373" key="GridCell.Tab.1.left" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.1.left" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824609" />
-    <state width="1234" height="373" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.1.left/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
-    <state width="1234" height="373" key="GridCell.Tab.1.right" timestamp="1673673935472">
+    <state width="2517" height="215" key="GridCell.Tab.1.right" timestamp="1674118383143">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="1233" height="224" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672674610311" />
     <state width="1037" height="224" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-557.1080.1890@2560.-557.1080.1890" timestamp="1672384824610" />
-    <state width="1234" height="373" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673673935472" />
+    <state width="2517" height="215" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118383143" />
     <state width="1877" height="374" key="GridCell.Tab.1.right/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517982912" />
     <state x="177" y="180" key="Maven.ArtifactSearchDialog" timestamp="1672920160096">
       <screen x="0" y="0" width="2560" height="1050" />
@@ -456,11 +429,15 @@
     <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672227484437" />
     <state x="1400" y="99" key="SettingsEditor/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1672982273695" />
     <state x="3440" y="99" key="SettingsEditor/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673437216597" />
-    <state x="1435" y="510" width="591" height="530" key="find.popup" timestamp="1673582243222">
+    <state x="1435" y="510" width="611" height="530" key="find.popup" timestamp="1674118223854">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1435" y="510" width="585" height="530" key="find.popup/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672333787138" />
-    <state x="1435" y="510" width="591" height="530" key="find.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673582243222" />
+    <state x="1435" y="510" width="611" height="530" key="find.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674118223854" />
+    <state x="1325" y="191" key="new project wizard" timestamp="1673702725310">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1325" y="191" key="new project wizard/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673702725310" />
     <state x="346" y="286" key="refactoring.ChangeSignatureDialog" timestamp="1673577146261">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -470,10 +447,21 @@
     </state>
     <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/2560.-557.1080.1890@0.0.2560.1050" timestamp="1672376013105" />
     <state x="936" y="243" width="672" height="677" key="run.anything.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1672982316401" />
-    <state x="831" y="227" width="896" height="678" key="search.everywhere.popup" timestamp="1673671312519">
+    <state x="831" y="227" width="896" height="678" key="search.everywhere.popup" timestamp="1674094972723">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="831" y="227" width="896" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1673671312519" />
+    <state x="831" y="227" width="896" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.0.1920.1050@0.0.2560.1050" timestamp="1674094972723" />
     <state x="3183" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.0.1920.1050@2560.0.1920.1050" timestamp="1673517940950" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Shopme_Ecommerce$OrderRestControllerTests_testSendOrderReturnRequestSuccessful.ic" NAME="OrderRestControllerTests.testSendOrderReturnRequestSuccessful Coverage Results" MODIFIED="1674115162018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shopme.order.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Shopme_Ecommerce$CategoryRepositoryTests.ic" NAME="CategoryRepositoryTests Coverage Results" MODIFIED="1674115240030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shopme.category.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Shopme_Ecommerce$ShippingRateServiceTests.ic" NAME="ShippingRateServiceTests Coverage Results" MODIFIED="1674115300618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.shopme.admin.shippingrate.*</FILTER>
+    </SUITE>
   </component>
 </project>

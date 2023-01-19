@@ -17,7 +17,8 @@ public class BrandServiceTests {
 	
 	@MockBean private BrandRepository repo;
 	
-	@InjectMocks private BrandService service;
+	@InjectMocks
+	private BrandService service;
 	
 	@Test
 	public void testCheckUniqueInNewModeReturnDuplicate() {
