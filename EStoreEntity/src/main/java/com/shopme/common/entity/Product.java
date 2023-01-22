@@ -63,12 +63,15 @@ public class Product {
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ProductDetail> details = new ArrayList<>();
 
+    public Product() {
+    }
+
+    public Product(String name) {
+        this.name = name;
+    }
 
     public Product(Integer id) {
         this.id = id;
-    }
-
-    public Product() {
     }
 
     public Integer getId() {
