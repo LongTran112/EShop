@@ -50,7 +50,7 @@ public class CustomerController {
 
         model.addAttribute("pageTitle", "Registration Succeeded!");
 
-        return "/register/register_success";
+        return "register/register_success";
     }
 
     private void sendVerificationEmail(HttpServletRequest request, Customer customer)

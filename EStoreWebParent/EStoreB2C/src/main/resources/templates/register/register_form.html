@@ -10,9 +10,11 @@
         <h2>Customer Registration</h2>
     </div>
 
-    <form th:action="@{/create_customer}" method="post" th:object="${customer}"
-          style="max-width: 600px; margin: 0 auto"
-          onsubmit="return checkEmailUnique(this);">
+<!--    <form th:action="@{/create_customer}" method="post" th:object="${customer}"-->
+<!--          style="max-width: 600px; margin: 0 auto"-->
+<!--          onsubmit="return checkEmailUnique(this);">-->
+        <form th:action="@{/create_customer}" method="post" th:object="${customer}"
+              style="max-width: 600px; margin: 0 auto">
         <div class="border border-secondary rounded p-3">
             <div class="form-group row">
                 <label class="col-sm-4 col-form-label">First Name:</label>
@@ -155,5 +157,6 @@
 
 </script>
 <script type="text/javascript" th:src="@{/js/common_customer_form.js}"></script>
+<script type="text/javascript" th:src="@{/js/common_modal.js}"></script>
 </body>
 </html>

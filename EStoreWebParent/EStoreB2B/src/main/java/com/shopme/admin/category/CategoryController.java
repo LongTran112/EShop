@@ -30,9 +30,7 @@ public class CategoryController {
 
     @GetMapping("/categories/page/{pageNum}")
     public String listByPage(@PathVariable(name = "pageNum") int pageNum,
-                             @Param("sortDir") String sortDir,
-                             @Param("keyword") String keyword,
-                             Model model) {
+                             String sortDir,	String keyword,	Model model) {
         if (sortDir ==  null || sortDir.isEmpty()) {
             sortDir = "asc";
         }
@@ -59,6 +57,7 @@ public class CategoryController {
 
         model.addAttribute("listCategories", listCategories);
         model.addAttribute("reverseSortDir", reverseSortDir);
+        model.addAttribute("moduleURL", "/categories");
 
         return "categories/categories";
     }
