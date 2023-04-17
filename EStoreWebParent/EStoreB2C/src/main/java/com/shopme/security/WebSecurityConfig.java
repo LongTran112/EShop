@@ -86,6 +86,7 @@ public class WebSecurityConfig {
                 "/js/**",
                 "/webjars/**",
                 "/styles/**",
+                "/style.css",
                 "/error",
                 "/site-logo/**",
                 "/fontawesome/**",
