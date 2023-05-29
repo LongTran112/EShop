@@ -24,7 +24,8 @@ public class SettingController {
     @Autowired
     private SettingService service;
 
-    @Autowired private CurrencyRepository currencyRepo;
+    @Autowired
+    private CurrencyRepository currencyRepo;
 
     @GetMapping("/settings")
     public String listAll(Model model) {

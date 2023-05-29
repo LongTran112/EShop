@@ -17,6 +17,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,10 +28,12 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
+import java.sql.SQLException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
+@Transactional
 @Controller
 public class CheckoutController {
 
@@ -81,6 +86,10 @@ public class CheckoutController {
         return customerService.getCustomerByEmail(email);
     }
 
+    // Spring handle unchecked exception only by default
+    @Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.REQUIRED,
+            //For checked exceptions (SQL exception)
+            rollbackFor = SQLException.class)
     @PostMapping("/place_order")
     public String placeOrder(HttpServletRequest request)
             throws UnsupportedEncodingException, MessagingException {

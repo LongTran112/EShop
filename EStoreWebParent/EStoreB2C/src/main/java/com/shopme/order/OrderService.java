@@ -8,7 +8,11 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -21,6 +25,12 @@ public class OrderService {
 
     @Autowired private OrderRepository repo;
 
+    // Spring handle unchecked exception only by default
+    @Transactional(isolation = Isolation.SERIALIZABLE,
+            // Ranh gioi rollback inner va outer method
+            propagation = Propagation.REQUIRES_NEW,
+            //For checked exceptions (SQL exception)
+            rollbackFor = SQLException.class)
     public Order createOrder(Customer customer, Address address, List<CartItem> cartItems,
                              PaymentMethod paymentMethod, CheckoutInfo checkoutInfo) {
         Order newOrder = new Order();
