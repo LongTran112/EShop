@@ -1,4 +1,4 @@
-### Proposal
+## Proposal
 The project EStore is a proposed web application to provides services for business-to-business (B2B)
 and business-to-customer (B2C) domains. Following DDD methodology, there are two core modules
 to match B2B and B2C business domain. The modules will provide the necessary functionality to
@@ -11,7 +11,7 @@ online book shop, etc.
 This project can also be used as referential materials for future migration to Micro-services
 architecture and newer front-end technology such as Angular and React.
 
-### Project Application Layers
+## Project Application Layers
 
 The application layers of EStore ecommerce site include:
 + Presentation Layer: This layer is responsible for displaying information to
@@ -29,7 +29,7 @@ access to the application and handles password encryption.
 
 ![image](https://github.com/user-attachments/assets/6fbcfeda-6722-4c1f-b588-41a481be5333)
 
-### Modules design 
+## Modules design 
 
 Based on DDD methodology and functional requirements, EStore monolith architecture are
 modular that is composed of several independent modules that are integrated into a single,
@@ -40,8 +40,8 @@ following image:
 
 ![image](https://github.com/user-attachments/assets/ffd139b7-4634-4c09-8754-c246b024fd64)
 
-### Advanced functional requirements
-## Security Design
+## Advanced functional requirements
+## 1. Security Design
 End users of EStore B2B can be divided into 4 roles: administer, editor, salesperson, shipper.
 Therefore, it is important to implement role-based authentication to restrict access to
 resources.
@@ -54,7 +54,7 @@ diagram:
 
 ![image](https://github.com/user-attachments/assets/534c24c4-0f78-4763-bf89-f79e416b20ef)
 
-## Implementation of OAuth 2.0 with Google and Facebook
+## 2. Implementation of OAuth 2.0 with Google and Facebook
 
 EStore uses OAuth 2.0 to access customers information on Google and Facebook without
 needing them to register an account. This provides a secure and reliable way to access user
@@ -69,7 +69,7 @@ diagram:
 
 ![image](https://github.com/user-attachments/assets/8c2648a2-89bf-408b-9c14-023a0d850d69)
 
-## Sending Email using SMTP Gmail
+## 3. Sending Email using SMTP Gmail
 EStore use this server to send emails to customers from a Gmail address for registration
 confirmation, order confirmation.
 
@@ -79,7 +79,7 @@ Example Email received by end-users:
 
 
 
-## Payment processing using Paypal sandbox
+## 4. Payment processing using Paypal sandbox
 
 EStore uses Paypal Sandbox for online transaction besides physical transaction which is cash-
 on-delivery (COD).
@@ -87,7 +87,7 @@ on-delivery (COD).
 ![image](https://github.com/user-attachments/assets/b3dd8346-08c2-4ccf-ae05-958843cc57b7)
 
 
-## Displaying sales report using Google Chart
+## 5. Displaying sales report using Google Chart
 Sales report in ecommerce is a report that provides detailed information about the sales of
 products or services on an ecommerce platform. 
 
