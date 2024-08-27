@@ -46,7 +46,8 @@ End users of EStore B2B can be divided into 4 roles: administer, editor, salespe
 Therefore, it is important to implement role-based authentication to restrict access to
 resources.
 
-![image](https://github.com/user-attachments/assets/b251b975-4f1c-4811-9e53-7d3f521de664)
+![image](https://github.com/user-attachments/assets/9c0ed92e-c9e1-4b8e-bb2f-b2229173e6c1)
+
 
 Despite having the same access to a module, there are some CRUD restriction and UI
 differences based on the role of end-user. The restrictions are marked by the use-case
@@ -74,6 +75,7 @@ EStore use this server to send emails to customers from a Gmail address for regi
 confirmation, order confirmation.
 
 Example Email received by end-users:
+
 ![image](https://github.com/user-attachments/assets/70c17f82-1008-4133-a586-5276ad63b14b)
 
 
