@@ -1,5 +1,9 @@
 package com.shopme.admin.security;
 
+import java.security.SecureRandom;
+import java.util.Base64;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -7,17 +11,31 @@ import org.springframework.security.authentication.dao.DaoAuthenticationProvider
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class WebSecurityConfig {
+
+    private static final SecureRandom SECURE_RANDOM = new SecureRandom();
+
+    private final String rememberMeKey;
+
+    public WebSecurityConfig(@Value("${security.rememberme.key:}") String configuredRememberMeKey) {
+        this.rememberMeKey = resolveRememberMeKey(configuredRememberMeKey);
+    }
+
+    private String resolveRememberMeKey(String configuredRememberMeKey) {
+        if (configuredRememberMeKey != null && !configuredRememberMeKey.trim().isEmpty()) {
+            return configuredRememberMeKey.trim();
+        }
+
+        byte[] randomBytes = new byte[32];
+        SECURE_RANDOM.nextBytes(randomBytes);
+        return Base64.getEncoder().encodeToString(randomBytes);
+    }
 
     @Bean
     public UserDetailsService userDetailsService() {
@@ -62,7 +80,7 @@ public class WebSecurityConfig {
                 .and().logout().permitAll()
                 .and()
                 .rememberMe().userDetailsService(userDetailsService())
-                .key("AbcDefgHijKlmnOpqrs_1234567890")
+                .key(rememberMeKey)
                 .tokenValiditySeconds(14 * 24 * 60 * 60);
 
 
