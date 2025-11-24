@@ -38,3 +38,11 @@ spring:
                         scope:
                             - email
                             - public_profile
+aws:
+    s3:
+        enabled: false
+        bucket-name: estore-images
+        region: ap-southeast-5
+        access-key: ${AWS_ACCESS_KEY_ID:AKIAIOSFODNN7EXAMPLE}
+        secret-key: ${AWS_SECRET_ACCESS_KEY:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY}
+        endpoint-url: s3.ap-southeast-5.amazonaws.com
